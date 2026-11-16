@@ -1,0 +1,7 @@
+:root {
+ --space-1: .5rem; --space-2: 1rem; --space-3: 1.5rem; --space-4: 2rem; --space-5: 3rem;
+ --container-width: 52rem; --radius: .5rem;
+ --theme-background: #fafaf7; --theme-surface: #ffffff; --theme-primary: #304e3e;
+ --theme-text: #26352d; --theme-accent: #73582c; --theme-border: #b4c1b6;
+ --font-heading: Georgia, serif; --font-body: Arial, sans-serif; --font-script: cursive;
+}

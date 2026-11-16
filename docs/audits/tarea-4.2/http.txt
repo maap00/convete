@@ -1,0 +1,13 @@
+
+> maap00-invitations@0.1.0 test:http
+> node scripts/verify-http.mjs http://127.0.0.1:3100
+
+PASS /invitacion/laura-martin: SEO, tema, contenido y secciones
+PASS /invitacion/ana-carlos: SEO, tema, contenido y secciones
+PASS slug inexistente: 404
+PASS /solicitar-invitacion: formulario local, SEO y privacidad
+
+> maap00-invitations@0.1.0 test:http:generated
+> node scripts/verify-generated-http.mjs http://127.0.0.1:3100
+
+PASS fixture-generador-local: ruta 200, motor compartido, secciones, fechas, SEO, fixture y foto WebP

@@ -1,0 +1,19 @@
+{
+  "notice": "EJEMPLOS FICTICIOS AISLADOS: no representan aprobación ni autorización de una persona real.",
+  "record": {
+    "schemaVersion": 1,
+    "slug": "fixture-flujo-comercial",
+    "responsible": "Responsable ficticio del ensayo aislado",
+    "approvedAt": "2020-01-01T00:00:00.000Z",
+    "recordedAt": "2026-11-16T02:48:42.562Z",
+    "fingerprint": "d2fc32e078a619076294637ba36cc22ac7453d11257a7fd3821fee3358121a94",
+    "status": "simulated",
+    "checklistConfirmed": true,
+    "publicationAuthorized": false,
+    "warningCodes": [
+      "FIXTURE:demoNotice",
+      "LOCAL_ONLY:seo"
+    ],
+    "observations": "SIMULACIÓN AISLADA. No hay cliente ni consentimiento real."
+  }
+}

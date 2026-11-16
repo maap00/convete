@@ -1,0 +1,40 @@
+{
+  "name": "maap00-invitations",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "test:http": "node scripts/verify-http.mjs",
+    "invitation:create": "node --experimental-strip-types scripts/create-invitation.ts",
+    "test:http:generated": "node scripts/verify-generated-http.mjs",
+    "invitation:check": "node --experimental-strip-types scripts/invitation-quality.ts check",
+    "invitation:approve": "node --experimental-strip-types scripts/invitation-quality.ts approve",
+    "invitation:handoff": "node --experimental-strip-types scripts/invitation-quality.ts handoff",
+    "test:commercial": "node --experimental-strip-types scripts/verify-commercial-flow.ts"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "postcss": "^8.5.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~5.7.3"
+  },
+  "type": "module"
+}

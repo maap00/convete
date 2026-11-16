@@ -1,0 +1,27 @@
+{
+  "status": "created",
+  "slug": "fixture-generador-local",
+  "couple": "Alma Ficticia de los Jardines del Sol y Bruno Ejemplo",
+  "theme": "botanical",
+  "sections": [
+    "countdown",
+    "welcome",
+    "venues",
+    "itinerary",
+    "rsvp"
+  ],
+  "photos": 1,
+  "warnings": [
+    "Indexación desactivada (noindex); no es control de acceso.",
+    "Open Graph reutiliza la fotografía principal; no se creó una composición social ni se comprobó su recorte.",
+    "Reconstruye la aplicación o reinicia desarrollo para reconocer la invitación. No se ha publicado en Internet.",
+    "RSVP conserva el receptor proporcionado. Verifica su autorización antes de compartir la invitación."
+  ],
+  "files": [
+    "public/invitations/fixture-generador-local/invitation.json",
+    "public/invitations/fixture-generador-local/preparation-report.json",
+    "public/invitations/fixture-generador-local/photos/main-01.webp"
+  ],
+  "route": "/invitacion/fixture-generador-local",
+  "elapsedMs": 60
+}

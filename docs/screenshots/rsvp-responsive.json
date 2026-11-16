@@ -1,0 +1,37 @@
+[
+  {
+    "formWidth": 284,
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "formWidth": 325,
+    "scrollWidth": 375,
+    "width": 375
+  },
+  {
+    "formWidth": 340,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "formWidth": 370,
+    "scrollWidth": 430,
+    "width": 430
+  },
+  {
+    "formWidth": 370,
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "formWidth": 370,
+    "scrollWidth": 1024,
+    "width": 1024
+  },
+  {
+    "formWidth": 370,
+    "scrollWidth": 1440,
+    "width": 1440
+  }
+]

@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+const base=process.argv[2]??'http://127.0.0.1:3100';
+const response=await fetch(`${base}/invitacion/fixture-generador-local`);assert.equal(response.status,200);
+const html=await response.text();
+for(const text of ['Alma Ficticia','Bruno Ejemplo','Nos elegimos para celebrar juntos','Invitación de prueba local','noindex'])assert.ok(html.includes(text),text);
+for(const id of ['welcome','countdown','venues','itinerary','rsvp','closing'])assert.ok(html.includes(`id="${id}"`),id);
+for(const id of ['gallery','dressCode','gifts'])assert.ok(!html.includes(`id="${id}"`),id);
+assert.ok(html.includes('2027-12-04T20:00:00Z'));assert.ok(html.includes('2027-12-04T22:00:00Z'));
+assert.ok(html.includes('property="og:title"'));assert.ok(!html.includes('rel="canonical"'));assert.ok(!html.includes('pareja@example.com'));assert.ok(!html.includes('12025550100'));
+const asset=await fetch(`${base}/invitations/fixture-generador-local/photos/main-01.webp`);assert.equal(asset.status,200);assert.match(asset.headers.get('content-type')??'',/image\/webp/);assert.ok((await asset.arrayBuffer()).byteLength>0);
+console.log('PASS fixture-generador-local: ruta 200, motor compartido, secciones, fechas, SEO, fixture y foto WebP');

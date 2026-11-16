@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "8880ff57-583a-445b-83a2-a614e633a37b",
+  "createdAt": "2026-11-16T01:32:39.201Z",
+  "commercial": {
+    "contact": {
+      "email": "pareja@example.com",
+      "whatsapp": "12025550100"
+    }
+  },
+  "couple": {
+    "first": "Alma Ficticia de los Jardines del Sol",
+    "second": "Bruno Ejemplo"
+  },
+  "event": {
+    "date": "2027-12-04",
+    "timeZone": "America/Caracas"
+  },
+  "venues": {
+    "sameLocation": true,
+    "ceremony": {
+      "location": {
+        "name": "Salón ficticio para pruebas",
+        "address": "Dirección de ejemplo sin ubicación real — Avenida de los Jardines, edificio de celebraciones, salón principal",
+        "city": "Ciudad de ejemplo",
+        "country": "País de ejemplo"
+      },
+      "startsAt": "2027-12-04T20:00:00.000Z"
+    },
+    "reception": {
+      "location": {
+        "name": "Salón ficticio para pruebas",
+        "address": "Dirección de ejemplo sin ubicación real — Avenida de los Jardines, edificio de celebraciones, salón principal",
+        "city": "Ciudad de ejemplo",
+        "country": "País de ejemplo"
+      },
+      "startsAt": "2027-12-04T22:00:00.000Z"
+    }
+  },
+  "content": {
+    "cover": "Nos elegimos para celebrar juntos una historia de ejemplo",
+    "welcome": "Bienvenidos a nuestra celebración ficticia.",
+    "closing": "Gracias por acompañarnos en este nuevo comienzo."
+  },
+  "resources": [
+    {
+      "id": "5dd4619a-e5e6-49aa-8dae-45a9d0299121",
+      "filename": "social.jpg",
+      "mimeType": "image/jpeg",
+      "size": 39048,
+      "destination": "main"
+    }
+  ],
+  "celebration": {
+    "itinerary": [
+      {
+        "id": "54d2aa37-4ee8-4710-8b4e-b0554c57d54c",
+        "title": "Cena y brindis de ejemplo con un título largo para revisar el ajuste de línea",
+        "startsAt": "2027-12-05T00:00:00.000Z"
+      }
+    ]
+  },
+  "preferences": {
+    "theme": "botanical",
+    "palette": "olive",
+    "sections": {
+      "countdown": true,
+      "welcome": true,
+      "venues": true,
+      "gallery": false,
+      "itinerary": true,
+      "dressCode": false,
+      "gifts": false,
+      "rsvp": true
+    }
+  },
+  "rsvp": {
+    "enabled": true,
+    "phone": "12025550101",
+    "maxCompanions": 2,
+    "deadline": "2027-12-01T16:00:00.000Z"
+  },
+  "completeness": {
+    "dataValidated": true,
+    "originalFilesDelivery": "pending",
+    "requiredResourceIds": [
+      "5dd4619a-e5e6-49aa-8dae-45a9d0299121"
+    ],
+    "note": "El JSON contiene un manifiesto, no fotografías. Entregar todos los archivos originales indicados junto con este JSON. Descargar no equivale a enviar la solicitud."
+  }
+}

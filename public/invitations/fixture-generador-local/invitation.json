@@ -1,0 +1,105 @@
+{
+  "id": "generated-fixture-generador-local",
+  "slug": "fixture-generador-local",
+  "couple": {
+    "first": "Alma Ficticia de los Jardines del Sol",
+    "second": "Bruno Ejemplo"
+  },
+  "event": {
+    "startsAt": "2027-12-04T20:00:00Z",
+    "timeZone": "America/Caracas"
+  },
+  "messages": {
+    "title": "Nos elegimos para celebrar juntos una historia de ejemplo",
+    "romantic": "Nos elegimos para celebrar juntos una historia de ejemplo",
+    "welcome": "Bienvenidos a nuestra celebración ficticia.",
+    "closing": "Gracias por acompañarnos en este nuevo comienzo."
+  },
+  "ceremony": {
+    "name": "Salón ficticio para pruebas",
+    "address": "Dirección de ejemplo sin ubicación real — Avenida de los Jardines, edificio de celebraciones, salón principal",
+    "city": "Ciudad de ejemplo",
+    "country": "País de ejemplo",
+    "startsAt": "2027-12-04T20:00:00Z"
+  },
+  "reception": {
+    "name": "Salón ficticio para pruebas",
+    "address": "Dirección de ejemplo sin ubicación real — Avenida de los Jardines, edificio de celebraciones, salón principal",
+    "city": "Ciudad de ejemplo",
+    "country": "País de ejemplo",
+    "startsAt": "2027-12-04T22:00:00Z"
+  },
+  "storyPhoto": {
+    "src": "/invitations/fixture-generador-local/photos/main-01.webp",
+    "width": 1200,
+    "height": 630,
+    "alt": "Alma Ficticia de los Jardines del Sol y Bruno Ejemplo · Fotografía principal"
+  },
+  "photos": [],
+  "itinerary": [
+    {
+      "id": "54d2aa37-4ee8-4710-8b4e-b0554c57d54c",
+      "title": "Cena y brindis de ejemplo con un título largo para revisar el ajuste de línea",
+      "startsAt": "2027-12-05T00:00:00Z"
+    }
+  ],
+  "dressCode": {
+    "title": "Código de vestimenta",
+    "description": "Sección desactivada."
+  },
+  "gifts": {
+    "message": "Sección desactivada."
+  },
+  "rsvp": {
+    "enabled": true,
+    "phone": "12025550101",
+    "maxCompanions": 2,
+    "deadline": "2027-12-01T16:00:00Z",
+    "message": "Confirma tu asistencia por WhatsApp."
+  },
+  "theme": "botanical",
+  "personalization": {
+    "palette": "olive"
+  },
+  "sections": [
+    {
+      "id": "countdown",
+      "enabled": true
+    },
+    {
+      "id": "welcome",
+      "enabled": true
+    },
+    {
+      "id": "venues",
+      "enabled": true
+    },
+    {
+      "id": "gallery",
+      "enabled": false
+    },
+    {
+      "id": "itinerary",
+      "enabled": true
+    },
+    {
+      "id": "dressCode",
+      "enabled": false
+    },
+    {
+      "id": "gifts",
+      "enabled": false
+    },
+    {
+      "id": "rsvp",
+      "enabled": true
+    }
+  ],
+  "seo": {
+    "title": "Alma Ficticia de los Jardines del Sol y Bruno Ejemplo · Nuestra boda",
+    "description": "Invitación de boda de Alma Ficticia de los Jardines del Sol y Bruno Ejemplo. 2027-12-04.",
+    "noIndex": true,
+    "image": "/invitations/fixture-generador-local/photos/main-01.webp"
+  },
+  "demoNotice": "Invitación de prueba local con datos ficticios y recursos de demostración. No corresponde a un evento real."
+}

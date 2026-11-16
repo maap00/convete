@@ -1,0 +1,11 @@
+{
+  "dryRunMs": 55,
+  "requestValidationMs": 15,
+  "assetPreparationMs": 38,
+  "generationTotalMs": 40,
+  "auditMs": 46,
+  "checklistMs": 0,
+  "approvalRegistrationMs": 42,
+  "handoffMs": 42,
+  "humanReviewMinutes": null
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "ejemplo-12345678",
+  "createdAt": "2026-11-15T12:00:00.000Z",
+  "commercial": {
+    "contact": {
+      "email": "pareja@example.com",
+      "whatsapp": "584125550100"
+    }
+  },
+  "couple": {
+    "first": "María Luz",
+    "second": "Alex Kim"
+  },
+  "event": {
+    "date": "2027-04-17",
+    "timeZone": "America/Caracas"
+  },
+  "venues": {
+    "sameLocation": false,
+    "ceremony": {
+      "location": {
+        "name": "Jardín de prueba",
+        "address": "Calle de muestra 12",
+        "city": "Caracas",
+        "country": "Venezuela",
+        "coordinates": {
+          "latitude": 0,
+          "longitude": 0
+        }
+      },
+      "startsAt": "2027-04-17T20:00:00.000Z"
+    },
+    "reception": {
+      "location": {
+        "name": "Salón de prueba",
+        "address": "Calle de muestra 12",
+        "city": "Caracas",
+        "country": "Venezuela"
+      },
+      "startsAt": "2027-04-17T22:00:00.000Z"
+    }
+  },
+  "content": {
+    "cover": "Celebremos juntos",
+    "welcome": "Primera línea\nSegunda línea",
+    "closing": "Gracias por acompañarnos."
+  },
+  "resources": [
+    {
+      "id": "resource-main",
+      "filename": "principal.jpg",
+      "mimeType": "image/jpeg",
+      "size": 1024,
+      "destination": "main"
+    },
+    {
+      "id": "resource-gallery",
+      "filename": "galeria.webp",
+      "mimeType": "image/webp",
+      "size": 2048,
+      "destination": "gallery"
+    }
+  ],
+  "celebration": {
+    "dressCode": "Formal",
+    "itinerary": []
+  },
+  "preferences": {
+    "theme": "botanical",
+    "palette": "olive",
+    "sections": {
+      "countdown": true,
+      "welcome": true,
+      "venues": true,
+      "gallery": true,
+      "itinerary": false,
+      "dressCode": true,
+      "gifts": false,
+      "rsvp": false
+    }
+  },
+  "rsvp": {
+    "enabled": false
+  },
+  "completeness": {
+    "dataValidated": true,
+    "originalFilesDelivery": "pending",
+    "requiredResourceIds": [
+      "resource-main",
+      "resource-gallery"
+    ],
+    "note": "El JSON contiene un manifiesto, no fotografías. Entregar todos los archivos originales indicados junto con este JSON. Descargar no equivale a enviar la solicitud."
+  }
+}

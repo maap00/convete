@@ -1,0 +1,289 @@
+{
+  "notice": "EJEMPLOS FICTICIOS AISLADOS: no representan aprobación ni autorización de una persona real.",
+  "timings": {
+    "dryRunMs": 55,
+    "requestValidationMs": 15,
+    "assetPreparationMs": 38,
+    "generationTotalMs": 40,
+    "auditMs": 46,
+    "checklistMs": 0,
+    "approvalRegistrationMs": 42,
+    "handoffMs": 42,
+    "humanReviewMinutes": null
+  },
+  "audit": {
+    "schemaVersion": 1,
+    "rulesVersion": 1,
+    "slug": "fixture-flujo-comercial",
+    "reviewedAt": "2026-11-16T02:48:42.474Z",
+    "technical": "passed",
+    "readyForReview": true,
+    "findings": [
+      {
+        "level": "INFO",
+        "code": "STORY_FALLBACK",
+        "field": "messages.story",
+        "message": "Se utiliza la bienvenida en lugar de una historia adicional."
+      },
+      {
+        "level": "INFO",
+        "code": "RSVP_STATUS",
+        "field": "rsvp",
+        "message": "Receptor con formato válido; titularidad y recepción requieren confirmación humana."
+      },
+      {
+        "level": "INFO",
+        "code": "NAVIGATION",
+        "field": "ceremony",
+        "message": "Canales configurados: ninguno. No se abrieron enlaces."
+      },
+      {
+        "level": "INFO",
+        "code": "NAVIGATION",
+        "field": "reception",
+        "message": "Canales configurados: ninguno. No se abrieron enlaces."
+      },
+      {
+        "level": "WARNING",
+        "code": "LOCAL_ONLY",
+        "field": "seo",
+        "message": "Sin dominio público: preparación local válida; canonical y previsualización pública pendientes."
+      },
+      {
+        "level": "INFO",
+        "code": "NOINDEX",
+        "field": "seo.noIndex",
+        "message": "Indexación desactivada; no protege el acceso al contenido."
+      },
+      {
+        "level": "WARNING",
+        "code": "FIXTURE",
+        "field": "demoNotice",
+        "message": "Contenido marcado como demostración/prueba. No listo para publicación comercial."
+      }
+    ],
+    "resources": [
+      {
+        "path": "/invitations/fixture-flujo-comercial/photos/main-01.webp",
+        "roles": [
+          "principal",
+          "Open Graph"
+        ],
+        "kind": "photo",
+        "required": true,
+        "exists": true,
+        "valid": true,
+        "bytes": 22586,
+        "sha256": "cb1d18270b5dc7f7a98a60b93294c589dc36417a65b4dbb455c0688cf2f2381e",
+        "width": 1200,
+        "height": 630
+      },
+      {
+        "path": "/themes/botanical/sprig.svg",
+        "roles": [
+          "ornament"
+        ],
+        "kind": "decoration",
+        "required": true,
+        "exists": true,
+        "valid": true,
+        "bytes": 504,
+        "sha256": "9d01d793464359b6532b1fcd86f233fba128c3e9aebf833ea2bdd98ada3af06d"
+      },
+      {
+        "path": "/themes/botanical/floral-corner.webp",
+        "roles": [
+          "corner"
+        ],
+        "kind": "decoration",
+        "required": true,
+        "exists": true,
+        "valid": true,
+        "bytes": 165978,
+        "sha256": "ebd15157153e48b9a7103935fbbdb6e79be5d18ee709b739583040cde1a04f10",
+        "width": 800,
+        "height": 800
+      }
+    ],
+    "sections": [
+      "countdown",
+      "welcome",
+      "venues",
+      "itinerary",
+      "rsvp"
+    ],
+    "fixture": true,
+    "route": "/invitacion/fixture-flujo-comercial",
+    "timings": {
+      "auditMs": 46,
+      "generationPreparationMs": 39,
+      "humanReviewMinutes": null
+    },
+    "recommendations": [
+      "Revisar el checklist con el cliente; los checks automáticos no sustituyen su aprobación.",
+      "Confirmar visualización móvil, permisos de fotografías, destinos y receptor RSVP sin enviar mensajes de prueba."
+    ],
+    "id": "generated-fixture-flujo-comercial",
+    "couple": "Alma Ficticia de los Jardines del Sol y Bruno Ejemplo",
+    "theme": "botanical",
+    "fingerprint": "d2fc32e078a619076294637ba36cc22ac7453d11257a7fd3821fee3358121a94"
+  },
+  "checklist": "# Revisión de nuestra invitación\n\nAlma Ficticia de los Jardines del Sol y Bruno Ejemplo\n\nReferencia de esta versión: d2fc32e078a619076294637ba36cc22ac7453d11257a7fd3821fee3358121a94\n\nMarquen cada punto después de revisarlo. Esta lista no registra automáticamente su aprobación ni publica la invitación.\n\n**EJEMPLO FICTICIO: no representa aprobación de un cliente real.**\n\n- [ ] Los nombres están escritos exactamente como queremos.\n- [ ] La fecha de la boda es correcta.\n- [ ] El nombre, horario, dirección y cómo llegar a la ceremonia son correctos.\n- [ ] El nombre, horario, dirección y cómo llegar a la recepción son correctos.\n- [ ] Las fotografías, su orden y sus recortes son correctos; tenemos permiso de uso.\n- [ ] La frase de portada y el mensaje de cierre son correctos.\n- [ ] La bienvenida y nuestra historia dicen lo que queremos compartir.\n- [ ] Las actividades y horarios del itinerario son correctos.\n- [ ] El receptor de confirmaciones, la fecha límite, el mensaje y el máximo de acompañantes son correctos y están autorizados.\n- [ ] La fecha mostrada y la cuenta regresiva corresponden a nuestra celebración.\n- [ ] El tema y los colores elegidos nos representan.\n- [ ] Revisamos la invitación en un teléfono: textos, botones y fotografías se leen y funcionan.\n- [ ] Revisamos qué nombres, fotografías y ubicaciones serán visibles para quien tenga el enlace.\n- [ ] Aprobamos esta versión del contenido.\n- [ ] Autorizamos por separado su publicación, tras resolver los pendientes de entrega.\n\nObservaciones:\n\nResponsable que confirma:\n\nFecha y hora de confirmación:\n\nSi algo cambia después de revisar, será necesario volver a comprobar la nueva versión.\n",
+  "approvalExample": {
+    "schemaVersion": 1,
+    "slug": "fixture-flujo-comercial",
+    "responsible": "Responsable ficticio del ensayo aislado",
+    "approvedAt": "2020-01-01T00:00:00.000Z",
+    "recordedAt": "2026-11-16T02:48:42.562Z",
+    "fingerprint": "d2fc32e078a619076294637ba36cc22ac7453d11257a7fd3821fee3358121a94",
+    "status": "simulated",
+    "checklistConfirmed": true,
+    "publicationAuthorized": false,
+    "warningCodes": [
+      "FIXTURE:demoNotice",
+      "LOCAL_ONLY:seo"
+    ],
+    "observations": "SIMULACIÓN AISLADA. No hay cliente ni consentimiento real."
+  },
+  "handoff": {
+    "schemaVersion": 1,
+    "audit": {
+      "schemaVersion": 1,
+      "rulesVersion": 1,
+      "slug": "fixture-flujo-comercial",
+      "reviewedAt": "2026-11-16T02:48:42.563Z",
+      "technical": "passed",
+      "readyForReview": true,
+      "findings": [
+        {
+          "level": "INFO",
+          "code": "STORY_FALLBACK",
+          "field": "messages.story",
+          "message": "Se utiliza la bienvenida en lugar de una historia adicional."
+        },
+        {
+          "level": "INFO",
+          "code": "RSVP_STATUS",
+          "field": "rsvp",
+          "message": "Receptor con formato válido; titularidad y recepción requieren confirmación humana."
+        },
+        {
+          "level": "INFO",
+          "code": "NAVIGATION",
+          "field": "ceremony",
+          "message": "Canales configurados: ninguno. No se abrieron enlaces."
+        },
+        {
+          "level": "INFO",
+          "code": "NAVIGATION",
+          "field": "reception",
+          "message": "Canales configurados: ninguno. No se abrieron enlaces."
+        },
+        {
+          "level": "WARNING",
+          "code": "LOCAL_ONLY",
+          "field": "seo",
+          "message": "Sin dominio público: preparación local válida; canonical y previsualización pública pendientes."
+        },
+        {
+          "level": "INFO",
+          "code": "NOINDEX",
+          "field": "seo.noIndex",
+          "message": "Indexación desactivada; no protege el acceso al contenido."
+        },
+        {
+          "level": "WARNING",
+          "code": "FIXTURE",
+          "field": "demoNotice",
+          "message": "Contenido marcado como demostración/prueba. No listo para publicación comercial."
+        }
+      ],
+      "resources": [
+        {
+          "path": "/invitations/fixture-flujo-comercial/photos/main-01.webp",
+          "roles": [
+            "principal",
+            "Open Graph"
+          ],
+          "kind": "photo",
+          "required": true,
+          "exists": true,
+          "valid": true,
+          "bytes": 22586,
+          "sha256": "cb1d18270b5dc7f7a98a60b93294c589dc36417a65b4dbb455c0688cf2f2381e",
+          "width": 1200,
+          "height": 630
+        },
+        {
+          "path": "/themes/botanical/sprig.svg",
+          "roles": [
+            "ornament"
+          ],
+          "kind": "decoration",
+          "required": true,
+          "exists": true,
+          "valid": true,
+          "bytes": 504,
+          "sha256": "9d01d793464359b6532b1fcd86f233fba128c3e9aebf833ea2bdd98ada3af06d"
+        },
+        {
+          "path": "/themes/botanical/floral-corner.webp",
+          "roles": [
+            "corner"
+          ],
+          "kind": "decoration",
+          "required": true,
+          "exists": true,
+          "valid": true,
+          "bytes": 165978,
+          "sha256": "ebd15157153e48b9a7103935fbbdb6e79be5d18ee709b739583040cde1a04f10",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "sections": [
+        "countdown",
+        "welcome",
+        "venues",
+        "itinerary",
+        "rsvp"
+      ],
+      "fixture": true,
+      "route": "/invitacion/fixture-flujo-comercial",
+      "timings": {
+        "auditMs": 42,
+        "generationPreparationMs": 39,
+        "humanReviewMinutes": null
+      },
+      "recommendations": [
+        "Revisar el checklist con el cliente; los checks automáticos no sustituyen su aprobación.",
+        "Confirmar visualización móvil, permisos de fotografías, destinos y receptor RSVP sin enviar mensajes de prueba."
+      ],
+      "id": "generated-fixture-flujo-comercial",
+      "couple": "Alma Ficticia de los Jardines del Sol y Bruno Ejemplo",
+      "theme": "botanical",
+      "fingerprint": "d2fc32e078a619076294637ba36cc22ac7453d11257a7fd3821fee3358121a94"
+    },
+    "approval": {
+      "status": "simulated",
+      "publicationAuthorized": false,
+      "warningsAcknowledged": false,
+      "humanReviewMinutes": null,
+      "approvedAt": "2020-01-01T00:00:00.000Z"
+    },
+    "state": "ready-for-review",
+    "publishedAndVerified": false,
+    "publicationBlockers": [
+      "Aprobación comercial real vigente pendiente (simulated).",
+      "Falta autorización explícita para publicar.",
+      "Las advertencias actuales no están confirmadas por una aprobación real vigente.",
+      "Falta configurar y comprobar el origen público de entrega.",
+      "Es una demostración/fixture, no una entrega comercial publicable."
+    ],
+    "nextSteps": [
+      "Revisar el checklist con el cliente.",
+      "Obtener aprobación explícita y registrar su versión."
+    ]
+  },
+  "handoffMarkdown": "# Informe de entrega · fixture-flujo-comercial\n\nPareja: Alma Ficticia de los Jardines del Sol y Bruno Ejemplo\n\nIdentificador: generated-fixture-flujo-comercial\n\nTema: botanical\n\nRevisión: 2026-11-16T02:48:42.563Z\n\nEstado técnico: passed\n\nAprobación: simulated\n\nEstado comercial: ready-for-review\n\nPublicada y verificada: **no** (no comprobable mediante esta revisión local).\n\nRuta local, no pública: /invitacion/fixture-flujo-comercial\n\nSecciones: countdown, welcome, venues, itinerary, rsvp\n\nHuella: d2fc32e078a619076294637ba36cc22ac7453d11257a7fd3821fee3358121a94\n\n## Hallazgos\n\n- INFO — Se utiliza la bienvenida en lugar de una historia adicional.\n- INFO — Receptor con formato válido; titularidad y recepción requieren confirmación humana.\n- INFO — Canales configurados: ninguno. No se abrieron enlaces.\n- INFO — Canales configurados: ninguno. No se abrieron enlaces.\n- WARNING — Sin dominio público: preparación local válida; canonical y previsualización pública pendientes.\n- INFO — Indexación desactivada; no protege el acceso al contenido.\n- WARNING — Contenido marcado como demostración/prueba. No listo para publicación comercial.\n\n## Recursos\n\n- /invitations/fixture-flujo-comercial/photos/main-01.webp: presente · 22586 bytes\n- /themes/botanical/sprig.svg: presente · 504 bytes\n- /themes/botanical/floral-corner.webp: presente · 165978 bytes\n\n## Tiempos\n\n- Auditoría automática: 42 ms.\n- Preparación del generador registrada: 39 ms; no incluye revisión humana.\n- Revisión humana declarada: no medida minutos.\n\n## Pendientes de publicación\n\n- Aprobación comercial real vigente pendiente (simulated).\n- Falta autorización explícita para publicar.\n- Las advertencias actuales no están confirmadas por una aprobación real vigente.\n- Falta configurar y comprobar el origen público de entrega.\n- Es una demostración/fixture, no una entrega comercial publicable.\n\n## Próximos pasos\n\n- Revisar el checklist con el cliente.\n- Obtener aprobación explícita y registrar su versión.\n"
+}

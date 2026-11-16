@@ -1,0 +1,4 @@
+import {RequestSummary} from './RequestSummary';
+import {Toggle} from './Field';
+import type {RequestDraft} from '../types';
+export function ReviewStep({draft,onEdit,reviewed,onReviewed}:{draft:RequestDraft;onEdit:(step:number)=>void;reviewed:boolean;onReviewed:(value:boolean)=>void}){return <><p className="request-lead">Revisen cada detalle. Esta descarga prepara una solicitud; todavía no crea ni publica una invitación.</p><RequestSummary draft={draft} onEdit={onEdit}/><div className="request-callout"><strong>La entrega tiene dos partes.</strong> Descarguen el JSON y adjunten por separado todos los archivos originales del manifiesto al entregarlos al operador comercial. Esta página no envía nada a maap00.world.</div><Toggle label="He revisado los datos y entiendo que debo entregar el JSON junto con las fotografías originales." checked={reviewed} onChange={onReviewed}/></>;}

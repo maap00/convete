@@ -1,0 +1,9 @@
+@font-face { font-family: 'Cormorant Garamond'; src: url('/fonts/cormorant.woff2') format('woff2'); font-weight: 300 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Great Vibes'; src: url('/fonts/great-vibes.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('/fonts/inter.woff2') format('woff2'); font-weight: 100 900; font-display: swap; }
+.theme-botanical {
+ --theme-background: #F8F5EF; --theme-surface: #FFFCF7; --theme-primary: #596B3B;
+ --theme-text: #333F26; --theme-accent: #C9B58A; --theme-border: #ded5c4; --theme-muted: #A5AE8B; --theme-canvas: #eae7de; --theme-shadow: #333f2610;
+ --font-heading: 'Cormorant Garamond', Georgia, serif; --font-body: 'Inter', Arial, sans-serif; --font-script: 'Great Vibes', cursive;
+ color: var(--theme-text); background: var(--theme-background); font-family: var(--font-body); min-height: 100svh;
+}

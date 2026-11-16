@@ -1,0 +1,22 @@
+[
+  {
+    "headingOverflow": false,
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "headingOverflow": false,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "headingOverflow": false,
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "headingOverflow": false,
+    "scrollWidth": 1440,
+    "width": 1440
+  }
+]

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "rulesVersion": 1,
+  "slug": "fixture-generador-local",
+  "reviewedAt": "2026-11-16T02:48:42.716Z",
+  "technical": "passed",
+  "readyForReview": true,
+  "findings": [
+    {
+      "level": "INFO",
+      "code": "STORY_FALLBACK",
+      "field": "messages.story",
+      "message": "Se utiliza la bienvenida en lugar de una historia adicional."
+    },
+    {
+      "level": "INFO",
+      "code": "RSVP_STATUS",
+      "field": "rsvp",
+      "message": "Receptor con formato válido; titularidad y recepción requieren confirmación humana."
+    },
+    {
+      "level": "INFO",
+      "code": "NAVIGATION",
+      "field": "ceremony",
+      "message": "Canales configurados: ninguno. No se abrieron enlaces."
+    },
+    {
+      "level": "INFO",
+      "code": "NAVIGATION",
+      "field": "reception",
+      "message": "Canales configurados: ninguno. No se abrieron enlaces."
+    },
+    {
+      "level": "WARNING",
+      "code": "LOCAL_ONLY",
+      "field": "seo",
+      "message": "Sin dominio público: preparación local válida; canonical y previsualización pública pendientes."
+    },
+    {
+      "level": "INFO",
+      "code": "NOINDEX",
+      "field": "seo.noIndex",
+      "message": "Indexación desactivada; no protege el acceso al contenido."
+    },
+    {
+      "level": "WARNING",
+      "code": "FIXTURE",
+      "field": "demoNotice",
+      "message": "Contenido marcado como demostración/prueba. No listo para publicación comercial."
+    }
+  ],
+  "resources": [
+    {
+      "path": "/invitations/fixture-generador-local/photos/main-01.webp",
+      "roles": [
+        "principal",
+        "Open Graph"
+      ],
+      "kind": "photo",
+      "required": true,
+      "exists": true,
+      "valid": true,
+      "bytes": 22586,
+      "sha256": "cb1d18270b5dc7f7a98a60b93294c589dc36417a65b4dbb455c0688cf2f2381e",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "path": "/themes/botanical/sprig.svg",
+      "roles": [
+        "ornament"
+      ],
+      "kind": "decoration",
+      "required": true,
+      "exists": true,
+      "valid": true,
+      "bytes": 504,
+      "sha256": "9d01d793464359b6532b1fcd86f233fba128c3e9aebf833ea2bdd98ada3af06d"
+    },
+    {
+      "path": "/themes/botanical/floral-corner.webp",
+      "roles": [
+        "corner"
+      ],
+      "kind": "decoration",
+      "required": true,
+      "exists": true,
+      "valid": true,
+      "bytes": 165978,
+      "sha256": "ebd15157153e48b9a7103935fbbdb6e79be5d18ee709b739583040cde1a04f10",
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "sections": [
+    "countdown",
+    "welcome",
+    "venues",
+    "itinerary",
+    "rsvp"
+  ],
+  "fixture": true,
+  "route": "/invitacion/fixture-generador-local",
+  "timings": {
+    "auditMs": 69,
+    "generationPreparationMs": 60,
+    "humanReviewMinutes": null
+  },
+  "recommendations": [
+    "Revisar el checklist con el cliente; los checks automáticos no sustituyen su aprobación.",
+    "Confirmar visualización móvil, permisos de fotografías, destinos y receptor RSVP sin enviar mensajes de prueba."
+  ],
+  "id": "generated-fixture-generador-local",
+  "couple": "Alma Ficticia de los Jardines del Sol y Bruno Ejemplo",
+  "theme": "botanical",
+  "fingerprint": "b365aa52e21460790f19640d082d521a3f8cd57b04ccb70e5fbdd3a08f287eab"
+}
