@@ -1,0 +1,6 @@
+HTTP/1.0 308 Permanent Redirect
+Content-Type: text/plain
+Location: https://convete.vercel.app/invitacion/laura-martin
+Refresh: 0;url=https://convete.vercel.app/invitacion/laura-martin
+server: Vercel
+

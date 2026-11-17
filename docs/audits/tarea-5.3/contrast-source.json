@@ -1,0 +1,15 @@
+{
+  "note": "Colores base locales de las paletas; no certifica píxeles compuestos, todos los estados ni la versión desplegada.",
+  "values": [
+    {
+      "palette": "olive",
+      "textBackground": 10.26659399714438,
+      "primaryBackground": 5.3741714224003
+    },
+    {
+      "palette": "rose",
+      "textBackground": 11.087429189425075,
+      "primaryBackground": 5.927985761378274
+    }
+  ]
+}

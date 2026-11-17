@@ -1,0 +1,16 @@
+PASS laura-martin: 200, canonical, OG propios, noindex y cabeceras
+PASS ana-carlos: 200, canonical, OG propios, noindex y cabeceras
+PASS bloqueo/404 /invitacion/fixture-generador-local
+PASS bloqueo/404 /invitacions/no-existe
+PASS bloqueo/404 /invitacion/no-existe
+PASS bloqueo/404 /invitations/fixture-generador-local/photos/main-01.webp
+PASS bloqueo/404 /invitations/fixture-generador-local/invitation.json
+PASS bloqueo/404 /invitations/fixture-generador-local/preparation-report.json
+PASS bloqueo/404 /invitations/laura-martin/README.md
+PASS bloqueo/404 /.convete/approvals/laura-martin
+PASS bloqueo/404 /_next/image?url=%2Finvitations%2Ffixture-generador-local%2Fphotos%2Fmain-01.webp&w=640&q=75
+PASS formulario 200 y fixture ausente de portada. Solo verificación, sin publicación.
+PASS /invitacion/laura-martin: SEO, tema, contenido y secciones
+PASS /invitacion/ana-carlos: SEO, tema, contenido y secciones
+PASS slug inexistente: 404
+PASS /solicitar-invitacion: formulario local, SEO y privacidad

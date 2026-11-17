@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "9c1cc93d-b289-4cb1-9e0f-e94ac2dc9d80",
+  "createdAt": "2026-11-17T18:37:06.060Z",
+  "commercial": {
+    "contact": {
+      "email": "prueba@example.com",
+      "whatsapp": "12025550100"
+    }
+  },
+  "couple": {
+    "first": "Alma Prueba",
+    "second": "Bruno Ejemplo"
+  },
+  "event": {
+    "date": "2027-12-04",
+    "timeZone": "America/Caracas"
+  },
+  "venues": {
+    "sameLocation": true,
+    "ceremony": {
+      "location": {
+        "name": "Lugar ficticio de auditoría",
+        "address": "Dirección ficticia para prueba de formulario",
+        "city": "Ciudad de ejemplo",
+        "country": "País de ejemplo"
+      },
+      "startsAt": "2027-12-04T20:00:00.000Z"
+    },
+    "reception": {
+      "location": {
+        "name": "Lugar ficticio de auditoría",
+        "address": "Dirección ficticia para prueba de formulario",
+        "city": "Ciudad de ejemplo",
+        "country": "País de ejemplo"
+      },
+      "startsAt": "2027-12-04T22:00:00.000Z"
+    }
+  },
+  "content": {
+    "cover": "Celebración ficticia de auditoría",
+    "welcome": "Bienvenida de prueba sin datos reales.",
+    "closing": "Gracias por acompañarnos en este nuevo comienzo."
+  },
+  "resources": [
+    {
+      "id": "5902564b-2ca2-40cc-ade6-f960273272bf",
+      "filename": "social.jpg",
+      "mimeType": "image/jpeg",
+      "size": 39048,
+      "destination": "main"
+    }
+  ],
+  "celebration": {
+    "itinerary": []
+  },
+  "preferences": {
+    "theme": "botanical",
+    "palette": "olive",
+    "sections": {
+      "countdown": true,
+      "welcome": true,
+      "venues": true,
+      "gallery": false,
+      "itinerary": false,
+      "dressCode": false,
+      "gifts": false,
+      "rsvp": false
+    }
+  },
+  "rsvp": {
+    "enabled": false
+  },
+  "completeness": {
+    "dataValidated": true,
+    "originalFilesDelivery": "pending",
+    "requiredResourceIds": [
+      "5902564b-2ca2-40cc-ade6-f960273272bf"
+    ],
+    "note": "El JSON contiene un manifiesto, no fotografías. Entregar todos los archivos originales indicados junto con este JSON. Descargar no equivale a enviar la solicitud."
+  }
+}

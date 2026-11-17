@@ -1,3 +1,4 @@
+import {effectiveRsvp} from './demo';
 import Image from 'next/image';
 import type { ReactNode } from 'react';
 import type { WeddingInvitation, SectionId } from './types';
@@ -15,6 +16,7 @@ import { ActionLink } from '@/components/ui/ActionLink';
 import { Icon } from '@/components/ui/Icon';
 export function InvitationRenderer({ invitation }: { invitation: WeddingInvitation }) {
  validateInvitation(invitation,{activeOnly:true});
+ const rsvp=effectiveRsvp(invitation);
  const theme = resolveTheme(invitation.theme, invitation.personalization);
  const visibleSections = getVisibleSections(invitation);
  const venueVisibility = getVenueVisibility(invitation);
@@ -28,7 +30,7 @@ export function InvitationRenderer({ invitation }: { invitation: WeddingInvitati
   itinerary: { title: 'Itinerario del día', content: <Itinerary items={invitation.itinerary} timeZone={timeZone}/> },
   dressCode: { title: 'Código de vestimenta', content: <DressCode dressCode={invitation.dressCode}/> },
   gifts: { title: 'Lista de regalos', content: <Gifts gifts={invitation.gifts}/> },
-  rsvp: { title: 'Confirma tu asistencia', content: <Rsvp rsvp={invitation.rsvp} eventLabel={invitation.rsvp.eventLabel ?? `${invitation.couple.first} y ${invitation.couple.second}`}/> }
+  rsvp: { title: 'Confirma tu asistencia', content: <Rsvp rsvp={rsvp} eventLabel={rsvp.eventLabel ?? `${invitation.couple.first} y ${invitation.couple.second}`}/> }
  };
  return <div className={theme.className} style={theme.style} data-icons={theme.icons}>
   <a className="skip-link" href="#invitation-content">Saltar al contenido</a>

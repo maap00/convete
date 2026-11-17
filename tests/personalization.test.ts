@@ -23,7 +23,7 @@ test('registry rejects duplicate slugs and duplicate ids independently', () => {
  assert.throws(()=>validateInvitationRegistry([laura(),other]),/registry/);
 });
 test('approved Laura configuration remains unchanged from phase 1', () => {
- assert.deepEqual(laura(),JSON.parse(readFileSync(new URL('./fixtures/laura-martin.json',import.meta.url),'utf8')));
+ const {mode,...approvedContent}=laura();assert.equal(mode,'demo');assert.deepEqual(approvedContent,JSON.parse(readFileSync(new URL('./fixtures/laura-martin.json',import.meta.url),'utf8')));
  const theme = resolveTheme('botanical');
  assert.equal(theme.style['--theme-primary'],'#596B3B');
  assert.equal(theme.style['--theme-background'],'#F8F5EF');

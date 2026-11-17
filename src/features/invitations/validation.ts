@@ -20,6 +20,8 @@ export function validateInvitation(invitation: WeddingInvitation,options:{active
  const text = (field: string, value: string) => { if (typeof value !== 'string' || !value.trim()) fail(field,'campo obligatorio'); };
  const instant = (field: string, value: string) => { try { return parseInstant(value); } catch { return fail(field,'usar fecha ISO válida con segundos y offset explícito'); } };
  const url = (field: string, value?: string) => { if (value !== undefined && !isSafeUrl(value)) fail(field,'usar HTTPS sin credenciales ni espacios'); };
+ if(invitation.mode!==undefined&&!['demo','commercial'].includes(invitation.mode))fail('mode','modo desconocido');
+ if(invitation.rsvp.demoMode!==undefined&&typeof invitation.rsvp.demoMode!=='boolean')fail('rsvp.demoMode','usar booleano');
  text('id',invitation.id);
  if (!isInvitationSlug(invitation.slug)) fail('slug','usar minúsculas, números y guiones simples');
  text('couple.first',invitation.couple.first); text('couple.second',invitation.couple.second);

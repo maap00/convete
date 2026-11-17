@@ -321,11 +321,11 @@ npm run invitation:create -- --input ./solicitud.json --assets ./fotografias --d
 npm run invitation:create -- --input ./solicitud.json --assets ./fotografias
 ```
 
-Para elegir la ruta, añadir `--slug nombre-pareja`. `--help` muestra opciones; `--fixture` marca explícitamente una invitación de prueba. El dry-run valida y optimiza en memoria sin escribir. La creación genera configuración, WebP optimizados e informe en `public/invitations/{slug}/`; no sobrescribe directorios existentes ni necesita editar el registro, React o CSS. El contacto comercial del JSON no se copia a la invitación pública.
+Para elegir la ruta, añadir `--slug nombre-pareja`. `--help` muestra opciones; `--fixture` marca explícitamente una invitación de prueba. El dry-run valida y optimiza en memoria sin escribir. La creación guarda configuración e informe en `data/invitations/{slug}/` (privados) y únicamente WebP en `public/invitations/{slug}/photos/`; no sobrescribe directorios existentes ni necesita editar el registro, React o CSS. El contacto comercial del JSON no se copia a la invitación pública.
 
 Reiniciar desarrollo o reconstruir (`npm run build`, luego `npm start`) y abrir `/invitacion/{slug}` en el servidor local. El CLI no publica en Internet. El build predeterminado sigue afectado por el bloqueo ambiental Turbopack documentado; Webpack se verificó adicionalmente con `npm run build -- --webpack`.
 
-La fixture `/invitacion/fixture-generador-local` ya existe y está marcada como ficticia. Para comprobar otra simulación:
+La fixture histórica está archivada fuera del registro y de `public`, en `tests/fixtures/legacy-generated/`. Para comprobar otra simulación:
 
 ```sh
 npm run invitation:create -- --input docs/examples/solicitud-invitacion-recorrido-4.1.1.json --assets public/invitations/laura-martin --slug fixture-simulacion --fixture --dry-run
@@ -333,7 +333,7 @@ npm run invitation:create -- --input docs/examples/solicitud-invitacion-recorrid
 
 Los recursos de ese comando son de demostración. No usarlos como datos de un cliente. La fotografía principal también sirve como imagen local SEO; revisar su recorte y textos alternativos antes de una entrega real. Las invitaciones se crean con `noindex`, que no restringe su acceso. Sin origen público válido no se emite canonical inventado.
 
-Ver [Tarea 4.2](docs/tarea-4.2.md) para arquitectura, formato, valores por defecto, seguridad, recuperación ante fallos, pruebas y límites. Resultado de Tarea 4.2: 120 pruebas aprobadas; HTTP de demos/formulario/fixture/404 y build Webpack correctos. `npm run test:http:generated -- http://127.0.0.1:3100` verifica la fixture después de iniciar producción.
+Ver [Tarea 4.2](docs/tarea-4.2.md) para arquitectura, formato, valores por defecto, seguridad, recuperación ante fallos, pruebas y límites. Resultado de Tarea 4.2: 120 pruebas aprobadas; HTTP de demos/formulario/fixture/404 y build Webpack correctos. `npm run test:http:generated -- http://127.0.0.1:3100 SLUG` verifica una invitación previamente generada y compilada en modo local (`CONVETE_PUBLIC_DEMO=false`). Retirar las fixtures de prueba antes de preparar la demo pública; el prebuild rechaza directorios de invitaciones ajenos a las demos incorporadas.
 
 
 ## Revisar y preparar la entrega comercial · Tarea 4.3
@@ -341,10 +341,10 @@ Ver [Tarea 4.2](docs/tarea-4.2.md) para arquitectura, formato, valores por defec
 Los controles técnicos y la aprobación del cliente son pasos diferentes. Auditar no aprueba ni publica:
 
 ```sh
-npm run invitation:check -- --slug fixture-generador-local
-npm run invitation:check -- --slug fixture-generador-local --json
-npm run invitation:check -- --slug fixture-generador-local --checklist --output reports/checklist-cliente.md
-npm run invitation:handoff -- --slug fixture-generador-local --output reports/entrega.md
+npm run invitation:check -- --slug SLUG
+npm run invitation:check -- --slug SLUG --json
+npm run invitation:check -- --slug SLUG --checklist --output reports/checklist-cliente.md
+npm run invitation:handoff -- --slug SLUG --output reports/entrega.md
 ```
 
 Los dos primeros comandos son de solo lectura; `--output` guarda únicamente en un archivo nuevo de `docs/` o `reports/`, sin sobrescribir. ERROR bloquea; WARNING requiere revisión; INFO orienta. El checklist omite secciones ocultas. La fixture no tiene aprobación real y no puede convertirse en entrega comercial mediante una simulación.
@@ -360,3 +360,30 @@ npm run test:commercial
 Ese comando usa un directorio temporal y registra solo una simulación. Suite final: **146 pruebas aprobadas**, TypeScript/ESLint/Webpack y HTTP correctos; bloqueo ambiental de Turbopack documentado. La revisión humana y la meta de 30 minutos aún no se han medido con un caso real.
 
 Guía, reglas, huellas, estados, seguridad y ejemplos: [Tarea 4.3](docs/tarea-4.3.md). No se publica automáticamente ni se avanzó a Fase 5.
+
+## Auditoría pública · Tarea 5.3
+
+La auditoría de `https://convete.vercel.app/invitacion/laura-martin` detectó ausencia de OG image/URL/canonical y exposición de una fixture/documentos internos. Se prepararon correcciones **solo locales**; no están desplegadas. El informe diferencia producción, localhost y comprobaciones pendientes: [Tarea 5.3](docs/tarea-5.3.md).
+
+Antes de un build Vercel Production, configurar explícitamente `CONVETE_PUBLIC_ORIGIN=https://convete.vercel.app` (o el origen real de la entrega) y revisar `.env.example`. El nuevo prebuild rechaza Production sin origen válido. `CONVETE_PUBLIC_DEMO=true` muestra solo las dos demos incorporadas y bloquea fixtures; es el modo predeterminado con `VERCEL_ENV=production` o `preview`. Usar `false` únicamente para una entrega de clientes intencional y revisada.
+
+Desde esta corrección los directorios de invitación exponen por HTTP recursos gráficos, **no configuraciones JSON, informes o README**, y el generador los guarda fuera del árbol público desde 5.3.1. La fixture histórica está archivada fuera del registro. No es autenticación y no autoriza publicar datos privados.
+
+```sh
+node scripts/audit-public.mjs
+# Tras construir/iniciar localhost en modo demo con origen explícito:
+node scripts/verify-public-release.mjs http://127.0.0.1:3102 https://convete.vercel.app
+```
+
+Resultado local: 153 pruebas, TypeScript, ESLint, Webpack y HTTP correctos. Responsive público: 24 mediciones sin scroll horizontal en Chromium emulado; no dispositivos físicos. Formulario público recorrido hasta descarga JSON válida. PageSpeed devolvió 429: no hay puntuaciones ni CWV inventados. Siguen pendientes la captura dinámica de tráfico, el preview real de WhatsApp, navegadores/dispositivos físicos y el panel de Vercel. No se realizaron commits, push ni despliegues.
+
+
+## Preparación de publicación · Tarea 5.3.1
+
+Informe, evidencia, checklist y rollback: [Tarea 5.3.1](docs/tarea-5.3.1.md). Sin despliegue ejecutado.
+
+Production exige `CONVETE_PUBLIC_ORIGIN=https://convete.vercel.app`. Preview utiliza `CONVETE_PREVIEW_ORIGIN` o el hostname automático `VERCEL_URL`; nunca hereda el origen de Production y siempre emite noindex. Estas variables son del servidor, no `NEXT_PUBLIC_*`.
+
+El prebuild revisa físicamente `public`; el postbuild inspecciona estáticos, rutas prerenderizadas y trazas. `npm run test:artifact` repite esta inspección del último build; ejecutarlo con las mismas variables del build. Los JSON legítimos de Next permanecen permitidos. Las licencias de fuentes permanecen públicas; los README de fotografías están en `docs/invitation-assets/`.
+
+Las demos declaran `mode: 'demo'`: RSVP queda sin destino y deshabilitado incluso si se habilita accidentalmente en su configuración. Las invitaciones de clientes usan `commercial`; no se desactiva globalmente el RSVP. Una fixture generada debe archivarse fuera de `public` y `data/invitations` antes del build público; no eliminar carpetas de clientes sin revisión.

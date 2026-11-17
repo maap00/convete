@@ -1,0 +1,890 @@
+
+> maap00-invitations@0.1.0 test
+> node --experimental-strip-types --test tests/*.test.ts
+
+TAP version 13
+# Subtest: formats in event timezone, including a different calendar day
+ok 1 - formats in event timezone, including a different calendar day
+  ---
+  duration_ms: 31.622709
+  type: 'test'
+  ...
+# Subtest: rejects ambiguous, impossible and normalized dates
+ok 2 - rejects ambiguous, impossible and normalized dates
+  ---
+  duration_ms: 0.699583
+  type: 'test'
+  ...
+# Subtest: accepts leap dates and respects explicit offsets
+ok 3 - accepts leap dates and respects explicit offsets
+  ---
+  duration_ms: 0.072584
+  type: 'test'
+  ...
+# Subtest: RSVP deadline is inclusive
+ok 4 - RSVP deadline is inclusive
+  ---
+  duration_ms: 0.091083
+  type: 'test'
+  ...
+# Subtest: demo is valid and supports another configuration
+ok 5 - demo is valid and supports another configuration
+  ---
+  duration_ms: 3.983333
+  type: 'test'
+  ...
+# Subtest: slugs reject traversal and unsupported characters
+ok 6 - slugs reject traversal and unsupported characters
+  ---
+  duration_ms: 0.192625
+  type: 'test'
+  ...
+# Subtest: rejects duplicate invitations and section entries
+ok 7 - rejects duplicate invitations and section entries
+  ---
+  duration_ms: 2.360917
+  type: 'test'
+  ...
+# Subtest: rejects invalid timezone, deadline and itinerary
+ok 8 - rejects invalid timezone, deadline and itinerary
+  ---
+  duration_ms: 1.018833
+  type: 'test'
+  ...
+# Subtest: rejects unsafe URLs and photo paths
+ok 9 - rejects unsafe URLs and photo paths
+  ---
+  duration_ms: 1.427417
+  type: 'test'
+  ...
+# Subtest: countdown clamps expired dates and splits days and time correctly
+ok 10 - countdown clamps expired dates and splits days and time correctly
+  ---
+  duration_ms: 2.0625
+  type: 'test'
+  ...
+# Subtest: external request parser accepts the actual exported example and rejects malformed JSON
+ok 11 - external request parser accepts the actual exported example and rejects malformed JSON
+  ---
+  duration_ms: 3.790042
+  type: 'test'
+  ...
+# Subtest: unknown schema, absent objects and wrong primitive types fail before transformation
+ok 12 - unknown schema, absent objects and wrong primitive types fail before transformation
+  ---
+  duration_ms: 0.640875
+  type: 'test'
+  ...
+# Subtest: incomplete names, event dates, email and phone reuse the commercial validation
+ok 13 - incomplete names, event dates, email and phone reuse the commercial validation
+  ---
+  duration_ms: 4.048959
+  type: 'test'
+  ...
+# Subtest: unknown themes, sections, inconsistent same-location data and RSVP cannot enter the engine
+ok 14 - unknown themes, sections, inconsistent same-location data and RSVP cannot enter the engine
+  ---
+  duration_ms: 3.259709
+  type: 'test'
+  ...
+# Subtest: ISO millisecond timestamps from the form are converted without changing instants or zone
+ok 15 - ISO millisecond timestamps from the form are converted without changing instants or zone
+  ---
+  duration_ms: 1.504625
+  type: 'test'
+  ...
+# Subtest: disabled sections receive documented internal defaults and remain disabled
+ok 16 - disabled sections receive documented internal defaults and remain disabled
+  ---
+  duration_ms: 1.002792
+  type: 'test'
+  ...
+# Subtest: custom messages, guest instructions, colors, maps and gifts survive the pure transformation
+ok 17 - custom messages, guest instructions, colors, maps and gifts survive the pure transformation
+  ---
+  duration_ms: 2.378083
+  type: 'test'
+  ...
+# Subtest: hidden supplied content, invalid URLs and missing active content are reported, not silently discarded
+ok 18 - hidden supplied content, invalid URLs and missing active content are reported, not silently discarded
+  ---
+  duration_ms: 3.096167
+  type: 'test'
+  ...
+# Subtest: manifest types, duplicates, missing required IDs, precision and resource resolution are validated
+ok 19 - manifest types, duplicates, missing required IDs, precision and resource resolution are validated
+  ---
+  duration_ms: 6.17525
+  type: 'test'
+  ...
+# Subtest: Unicode accents and separators normalize predictably; invalid, long and reserved slugs fail
+ok 20 - Unicode accents and separators normalize predictably; invalid, long and reserved slugs fail
+  ---
+  duration_ms: 1.137791
+  type: 'test'
+  ...
+# Subtest: planning optimizes real fixture bytes, omits commercial contact and does not write
+ok 21 - planning optimizes real fixture bytes, omits commercial contact and does not write
+  ---
+  duration_ms: 53.049959
+  type: 'test'
+  ...
+# Subtest: dry-run validates every resource but writes no output, locks or staging
+ok 22 - dry-run validates every resource but writes no output, locks or staging
+  ---
+  duration_ms: 42.8165
+  type: 'test'
+  ...
+# Subtest: missing input, invalid JSON and missing asset directory leave no partial output
+ok 23 - missing input, invalid JSON and missing asset directory leave no partial output
+  ---
+  duration_ms: 5.708334
+  type: 'test'
+  ...
+# Subtest: missing originals and altered sizes are errors
+ok 24 - missing originals and altered sizes are errors
+  ---
+  duration_ms: 5.957167
+  type: 'test'
+  ...
+# Subtest: fake MIME, corrupt files and symlinks cannot be published
+ok 25 - fake MIME, corrupt files and symlinks cannot be published
+  ---
+  duration_ms: 9.641583
+  type: 'test'
+  ...
+# Subtest: real generation creates independent config, optimized photos and report, discovered without editing registry
+ok 26 - real generation creates independent config, optimized photos and report, discovered without editing registry
+  ---
+  duration_ms: 45.733834
+  type: 'test'
+  ...
+# Subtest: repeat generation, explicit directory collisions and built-in demo slugs never overwrite
+ok 27 - repeat generation, explicit directory collisions and built-in demo slugs never overwrite
+  ---
+  duration_ms: 58.064041
+  type: 'test'
+  ...
+# Subtest: write failure after staging an image rolls back only this run
+ok 28 - write failure after staging an image rolls back only this run
+  ---
+  duration_ms: 48.185584
+  type: 'test'
+  ...
+# Subtest: final rename failure and concurrent creation leave no partial directories
+ok 29 - final rename failure and concurrent creation leave no partial directories
+  ---
+  duration_ms: 219.011416
+  type: 'test'
+  ...
+# Subtest: discovery rejects mismatched slugs and symbolic configurations
+ok 30 - discovery rejects mismatched slugs and symbolic configurations
+  ---
+  duration_ms: 79.647375
+  type: 'test'
+  ...
+# Subtest: generated metadata uses the actual couple, local main image and no invented canonical
+ok 31 - generated metadata uses the actual couple, local main image and no invented canonical
+  ---
+  duration_ms: 1.933
+  type: 'test'
+  ...
+# Subtest: CLI help, dry-run and invalid options return appropriate exit statuses
+ok 32 - CLI help, dry-run and invalid options return appropriate exit statuses
+  ---
+  duration_ms: 553.218083
+  type: 'test'
+  ...
+# Subtest: the 4.2 adapter does not mutate the two existing demos
+ok 33 - the 4.2 adapter does not mutate the two existing demos
+  ---
+  duration_ms: 1.914042
+  type: 'test'
+  ...
+# Subtest: a valid generated invitation audits read-only with measured time and no public origin requirement
+ok 34 - a valid generated invitation audits read-only with measured time and no public origin requirement
+  ---
+  duration_ms: 113.446791
+  type: 'test'
+  ...
+# Subtest: missing invitation, malformed JSON and unknown theme return blocking reports instead of throwing
+ok 35 - missing invitation, malformed JSON and unknown theme return blocking reports instead of throwing
+  ---
+  duration_ms: 46.802958
+  type: 'test'
+  ...
+# Subtest: invalid required names and event fields cannot be declared technically ready
+ok 36 - invalid required names and event fields cannot be declared technically ready
+  ---
+  duration_ms: 98.885167
+  type: 'test'
+  ...
+# Subtest: missing referenced main photo blocks, but omitted optional photos do not
+ok 37 - missing referenced main photo blocks, but omitted optional photos do not
+  ---
+  duration_ms: 244.64375
+  type: 'test'
+  ...
+# Subtest: inactive gallery, venues, welcome, gifts, dress code and RSVP are not audited as active resources or fields
+ok 38 - inactive gallery, venues, welcome, gifts, dress code and RSVP are not audited as active resources or fields
+  ---
+  duration_ms: 127.976291
+  type: 'test'
+  ...
+# Subtest: active RSVP needs a valid receiver; disabled RSVP does not
+ok 39 - active RSVP needs a valid receiver; disabled RSVP does not
+  ---
+  duration_ms: 149.691958
+  type: 'test'
+  ...
+# Subtest: unsafe active links and invalid coordinates reuse shared configuration validation
+ok 40 - unsafe active links and invalid coordinates reuse shared configuration validation
+  ---
+  duration_ms: 47.064125
+  type: 'test'
+  ...
+# Subtest: gift link and text are optional when disabled and valid when enabled
+ok 41 - gift link and text are optional when disabled and valid when enabled
+  ---
+  duration_ms: 95.076958
+  type: 'test'
+  ...
+# Subtest: historical weddings and expired RSVP produce information/warnings, not invalid dates
+ok 42 - historical weddings and expired RSVP produce information/warnings, not invalid dates
+  ---
+  duration_ms: 95.314667
+  type: 'test'
+  ...
+# Subtest: no public origin is valid locally; invalid configured origins block; missing OG is a warning and blocks publication
+ok 43 - no public origin is valid locally; invalid configured origins block; missing OG is a warning and blocks publication
+  ---
+  duration_ms: 231.244792
+  type: 'test'
+  ...
+# Subtest: image byte formats and declared dimensions are checked without recompression
+ok 44 - image byte formats and declared dimensions are checked without recompression
+  ---
+  duration_ms: 157.137333
+  type: 'test'
+  ...
+# Subtest: client checklist follows active sections and contains no implementation jargon or automatic consent
+ok 45 - client checklist follows active sections and contains no implementation jargon or automatic consent
+  ---
+  duration_ms: 124.764334
+  type: 'test'
+  ...
+# Subtest: technical success alone is not approval and cannot claim publication
+ok 46 - technical success alone is not approval and cannot claim publication
+  ---
+  duration_ms: 81.835667
+  type: 'test'
+  ...
+# Subtest: approval requires explicit received consent, checklist, responsible, time, current fingerprint and warning acknowledgement
+ok 47 - approval requires explicit received consent, checklist, responsible, time, current fingerprint and warning acknowledgement
+  ---
+  duration_ms: 410.537458
+  type: 'test'
+  ...
+# Subtest: private explicit approval binds the exact version but does not authorize publication implicitly
+ok 48 - private explicit approval binds the exact version but does not authorize publication implicitly
+  ---
+  duration_ms: 165.380042
+  type: 'test'
+  ...
+# Subtest: configuration edits invalidate approval; property reordering and audit timestamps do not change fingerprint
+ok 49 - configuration edits invalidate approval; property reordering and audit timestamps do not change fingerprint
+  ---
+  duration_ms: 206.633958
+  type: 'test'
+  ...
+# Subtest: relevant image bytes, shared decorations and renderer/style changes invalidate the reviewed version
+ok 50 - relevant image bytes, shared decorations and renderer/style changes invalidate the reviewed version
+  ---
+  duration_ms: 247.050333
+  type: 'test'
+  ...
+# Subtest: simulation is explicitly marked and never counts as real commercial approval
+ok 51 - simulation is explicitly marked and never counts as real commercial approval
+  ---
+  duration_ms: 207.384959
+  type: 'test'
+  ...
+# Subtest: ready-for-publication requires valid origin, current real approval and explicit publication authority
+ok 52 - ready-for-publication requires valid origin, current real approval and explicit publication authority
+  ---
+  duration_ms: 250.342333
+  type: 'test'
+  ...
+# Subtest: corrupt approval records fail closed rather than inventing approval
+ok 53 - corrupt approval records fail closed rather than inventing approval
+  ---
+  duration_ms: 97.771958
+  type: 'test'
+  ...
+# Subtest: report outputs are explicit, refuse overwrites, public paths, traversal and symlinks
+ok 54 - report outputs are explicit, refuse overwrites, public paths, traversal and symlinks
+  ---
+  duration_ms: 63.713917
+  type: 'test'
+  ...
+# Subtest: auditing refuses unsafe slugs and symlinked invitation resources without changing files
+ok 55 - auditing refuses unsafe slugs and symlinked invitation resources without changing files
+  ---
+  duration_ms: 72.618625
+  type: 'test'
+  ...
+# Subtest: CLI supports readonly JSON/checklist/handoff, exit codes and explicit report output
+ok 56 - CLI supports readonly JSON/checklist/handoff, exit codes and explicit report output
+  ---
+  duration_ms: 1498.243458
+  type: 'test'
+  ...
+# Subtest: isolated commercial flow measures automated phases without claiming client time or publication
+ok 57 - isolated commercial flow measures automated phases without claiming client time or publication
+  ---
+  duration_ms: 169.389792
+  type: 'test'
+  ...
+# Subtest: the two built-in demos remain independent and their commercial audits do not mutate them
+ok 58 - the two built-in demos remain independent and their commercial audits do not mutate them
+  ---
+  duration_ms: 220.875
+  type: 'test'
+  ...
+# Subtest: approval CLI records a simulation only in the isolated workspace
+ok 59 - approval CLI records a simulation only in the isolated workspace
+  ---
+  duration_ms: 254.348875
+  type: 'test'
+  ...
+# Subtest: empty couple step reports required fields and accepts international names
+ok 60 - empty couple step reports required fields and accepts international names
+  ---
+  duration_ms: 6.97875
+  type: 'test'
+  ...
+# Subtest: contact email accepts common formats and rejects malformed addresses
+ok 61 - contact email accepts common formats and rejects malformed addresses
+  ---
+  duration_ms: 0.098709
+  type: 'test'
+  ...
+# Subtest: commercial phone is validated independently of RSVP receiver
+ok 62 - commercial phone is validated independently of RSVP receiver
+  ---
+  duration_ms: 4.673708
+  type: 'test'
+  ...
+# Subtest: calendar validation rejects normalized dates and unknown zones
+ok 63 - calendar validation rejects normalized dates and unknown zones
+  ---
+  duration_ms: 0.146792
+  type: 'test'
+  ...
+# Subtest: wall-clock conversion uses the event zone, including fractional offsets and midnight
+ok 64 - wall-clock conversion uses the event zone, including fractional offsets and midnight
+  ---
+  duration_ms: 0.774084
+  type: 'test'
+  ...
+# Subtest: ambiguous and nonexistent daylight-saving times are rejected explicitly
+ok 65 - ambiguous and nonexistent daylight-saving times are rejected explicitly
+  ---
+  duration_ms: 0.846083
+  type: 'test'
+  ...
+# Subtest: independent locations and ceremony/reception chronology are preserved
+ok 66 - independent locations and ceremony/reception chronology are preserved
+  ---
+  duration_ms: 6.690291
+  type: 'test'
+  ...
+# Subtest: same location reuses all location fields but keeps reception time and original draft
+ok 67 - same location reuses all location fields but keeps reception time and original draft
+  ---
+  duration_ms: 1.225209
+  type: 'test'
+  ...
+# Subtest: maps use the existing official-domain destination policy
+ok 68 - maps use the existing official-domain destination policy
+  ---
+  duration_ms: 8.437792
+  type: 'test'
+  ...
+# Subtest: coordinates allow zero and boundaries and reject partial or out-of-range pairs
+ok 69 - coordinates allow zero and boundaries and reject partial or out-of-range pairs
+  ---
+  duration_ms: 9.305416
+  type: 'test'
+  ...
+# Subtest: optional copy is omitted and multiline text is normalized without stripping accents
+ok 70 - optional copy is omitted and multiline text is normalized without stripping accents
+  ---
+  duration_ms: 1.296
+  type: 'test'
+  ...
+# Subtest: photo requirements follow gallery activation without discarding the draft
+ok 71 - photo requirements follow gallery activation without discarding the draft
+  ---
+  duration_ms: 0.800917
+  type: 'test'
+  ...
+# Subtest: only implemented themes and compatible palettes validate
+ok 72 - only implemented themes and compatible palettes validate
+  ---
+  duration_ms: 0.162125
+  type: 'test'
+  ...
+# Subtest: disabled RSVP ignores stale fields and excludes them from the export
+ok 73 - disabled RSVP ignores stale fields and excludes them from the export
+  ---
+  duration_ms: 1.422834
+  type: 'test'
+  ...
+# Subtest: enabled RSVP requires receiver, companion bounds and a deadline before the ceremony
+ok 74 - enabled RSVP requires receiver, companion bounds and a deadline before the ceremony
+  ---
+  duration_ms: 2.280125
+  type: 'test'
+  ...
+# Subtest: RSVP section cannot silently disagree with its activation
+ok 75 - RSVP section cannot silently disagree with its activation
+  ---
+  duration_ms: 1.281959
+  type: 'test'
+  ...
+# Subtest: itinerary validates title, chronological order, uniqueness and midnight dates
+ok 76 - itinerary validates title, chronological order, uniqueness and midnight dates
+  ---
+  duration_ms: 1.0855
+  type: 'test'
+  ...
+# Subtest: optional gift URLs still reject unsafe schemes and absent gift sections need no message
+ok 77 - optional gift URLs still reject unsafe schemes and absent gift sections need no message
+  ---
+  duration_ms: 0.144625
+  type: 'test'
+  ...
+# Subtest: supported images enforce MIME, extension, nonempty size and exact maximum
+ok 78 - supported images enforce MIME, extension, nonempty size and exact maximum
+  ---
+  duration_ms: 0.157792
+  type: 'test'
+  ...
+# Subtest: manifest contains only file metadata, and image signatures must match MIME
+ok 79 - manifest contains only file metadata, and image signatures must match MIME
+  ---
+  duration_ms: 0.539125
+  type: 'test'
+  ...
+# Subtest: resource count, aggregate size and duplicate filenames/IDs cannot bypass export validation
+ok 80 - resource count, aggregate size and duplicate filenames/IDs cannot bypass export validation
+  ---
+  duration_ms: 0.142167
+  type: 'test'
+  ...
+# Subtest: versioned serialization excludes File, preview URLs, base64 and UI properties without mutating state
+ok 81 - versioned serialization excludes File, preview URLs, base64 and UI properties without mutating state
+  ---
+  duration_ms: 3.858292
+  type: 'test'
+  ...
+# Subtest: draft defaults and new request changes preserve existing independent invitations
+ok 82 - draft defaults and new request changes preserve existing independent invitations
+  ---
+  duration_ms: 0.335125
+  type: 'test'
+  ...
+# Subtest: dress code can be disabled before advancing, preserves draft and exports only active content
+ok 83 - dress code can be disabled before advancing, preserves draft and exports only active content
+  ---
+  duration_ms: 2.773209
+  type: 'test'
+  ...
+# Subtest: disabled sections ignore hidden invalid data and omit it from the JSON without losing it
+ok 84 - disabled sections ignore hidden invalid data and omit it from the JSON without losing it
+  ---
+  duration_ms: 1.280334
+  type: 'test'
+  ...
+# Subtest: required cover, conditional welcome and optional closing agree between steps and export
+ok 85 - required cover, conditional welcome and optional closing agree between steps and export
+  ---
+  duration_ms: 2.41475
+  type: 'test'
+  ...
+# Subtest: personalized optional messages preserve accents, normalization and validation limits
+ok 86 - personalized optional messages preserve accents, normalization and validation limits
+  ---
+  duration_ms: 1.21275
+  type: 'test'
+  ...
+# Subtest: local metadata never invents a public origin or social image URL
+ok 87 - local metadata never invents a public origin or social image URL
+  ---
+  duration_ms: 3.943584
+  type: 'test'
+  ...
+# Subtest: public metadata has independent canonical, preview and title per invitation
+ok 88 - public metadata has independent canonical, preview and title per invitation
+  ---
+  duration_ms: 0.337625
+  type: 'test'
+  ...
+# Subtest: indexing can be enabled independently without mutating private demos
+ok 89 - indexing can be enabled independently without mutating private demos
+  ---
+  duration_ms: 0.48025
+  type: 'test'
+  ...
+# Subtest: public origin rejects local, insecure and ambiguous configuration
+ok 90 - public origin rejects local, insecure and ambiguous configuration
+  ---
+  duration_ms: 0.290333
+  type: 'test'
+  ...
+# Subtest: an explicitly empty social asset is a configuration error
+ok 91 - an explicitly empty social asset is a configuration error
+  ---
+  duration_ms: 54.12225
+  type: 'test'
+  ...
+# Subtest: valid official Google Maps URL forms are accepted
+ok 92 - valid official Google Maps URL forms are accepted
+  ---
+  duration_ms: 2.969958
+  type: 'test'
+  ...
+# Subtest: invalid Maps domains, protocols, redirects and parameters are rejected
+ok 93 - invalid Maps domains, protocols, redirects and parameters are rejected
+  ---
+  duration_ms: 0.676375
+  type: 'test'
+  ...
+# Subtest: valid coordinates include zero and geographic boundaries
+ok 94 - valid coordinates include zero and geographic boundaries
+  ---
+  duration_ms: 0.07925
+  type: 'test'
+  ...
+# Subtest: latitude outside range or non-finite is invalid
+ok 95 - latitude outside range or non-finite is invalid
+  ---
+  duration_ms: 0.093208
+  type: 'test'
+  ...
+# Subtest: longitude outside range or non-finite is invalid
+ok 96 - longitude outside range or non-finite is invalid
+  ---
+  duration_ms: 0.1725
+  type: 'test'
+  ...
+# Subtest: Google Maps directions are built with encoded coordinates
+ok 97 - Google Maps directions are built with encoded coordinates
+  ---
+  duration_ms: 0.1485
+  type: 'test'
+  ...
+# Subtest: Google Maps directions use a sufficiently specific full address
+ok 98 - Google Maps directions use a sufficiently specific full address
+  ---
+  duration_ms: 1.497542
+  type: 'test'
+  ...
+# Subtest: explicit validated Maps URL takes priority over coordinates and legacy URL remains supported
+ok 99 - explicit validated Maps URL takes priority over coordinates and legacy URL remains supported
+  ---
+  duration_ms: 0.219584
+  type: 'test'
+  ...
+# Subtest: insufficient or fictitious addresses never become destinations
+ok 100 - insufficient or fictitious addresses never become destinations
+  ---
+  duration_ms: 0.352375
+  type: 'test'
+  ...
+# Subtest: Waze navigation uses official HTTPS URL and coordinates
+ok 101 - Waze navigation uses official HTTPS URL and coordinates
+  ---
+  duration_ms: 0.693625
+  type: 'test'
+  ...
+# Subtest: Waze without coordinates stays hidden unless an explicit validated destination exists
+ok 102 - Waze without coordinates stays hidden unless an explicit validated destination exists
+  ---
+  duration_ms: 0.788917
+  type: 'test'
+  ...
+# Subtest: gift registry URLs allow arbitrary HTTPS providers
+ok 103 - gift registry URLs allow arbitrary HTTPS providers
+  ---
+  duration_ms: 0.218709
+  type: 'test'
+  ...
+# Subtest: unsafe gift URLs and malformed URLs are rejected
+ok 104 - unsafe gift URLs and malformed URLs are rejected
+  ---
+  duration_ms: 0.160667
+  type: 'test'
+  ...
+# Subtest: special characters round-trip through native parameter encoding
+ok 105 - special characters round-trip through native parameter encoding
+  ---
+  duration_ms: 0.262083
+  type: 'test'
+  ...
+# Subtest: location without sufficient data has no actions
+ok 106 - location without sufficient data has no actions
+  ---
+  duration_ms: 1.093125
+  type: 'test'
+  ...
+# Subtest: location can expose Google Maps alone
+ok 107 - location can expose Google Maps alone
+  ---
+  duration_ms: 0.274708
+  type: 'test'
+  ...
+# Subtest: location can expose both Maps and Waze and can disable navigation
+ok 108 - location can expose both Maps and Waze and can disable navigation
+  ---
+  duration_ms: 0.306292
+  type: 'test'
+  ...
+# Subtest: ceremony and reception destinations are independent
+ok 109 - ceremony and reception destinations are independent
+  ---
+  duration_ms: 0.896917
+  type: 'test'
+  ...
+# Subtest: same location data can be shared while event times remain independent
+ok 110 - same location data can be shared while event times remain independent
+  ---
+  duration_ms: 0.185666
+  type: 'test'
+  ...
+# Subtest: disabled gifts are omitted by the existing section configuration
+ok 111 - disabled gifts are omitted by the existing section configuration
+  ---
+  duration_ms: 0.456708
+  type: 'test'
+  ...
+# Subtest: gifts without URL retain their valid message and no URL is synthesized
+ok 112 - gifts without URL retain their valid message and no URL is synthesized
+  ---
+  duration_ms: 0.583084
+  type: 'test'
+  ...
+# Subtest: invitations keep independent location and gift configurations
+ok 113 - invitations keep independent location and gift configurations
+  ---
+  duration_ms: 0.364458
+  type: 'test'
+  ...
+# Subtest: approved Laura configuration is preserved and Ana stays fictitious
+ok 114 - approved Laura configuration is preserved and Ana stays fictitious
+  ---
+  duration_ms: 1.419709
+  type: 'test'
+  ...
+# Subtest: existing config validation reports invalid navigation and gift settings by field
+ok 115 - existing config validation reports invalid navigation and gift settings by field
+  ---
+  duration_ms: 1.126291
+  type: 'test'
+  ...
+# Subtest: both shipped demos have no active fictitious navigation or gift links
+ok 116 - both shipped demos have no active fictitious navigation or gift links
+  ---
+  duration_ms: 0.151917
+  type: 'test'
+  ...
+# Subtest: registry resolves both slugs and returns undefined for unknown or unsafe paths
+ok 117 - registry resolves both slugs and returns undefined for unknown or unsafe paths
+  ---
+  duration_ms: 1.775542
+  type: 'test'
+  ...
+# Subtest: registry rejects duplicate slugs and duplicate ids independently
+ok 118 - registry rejects duplicate slugs and duplicate ids independently
+  ---
+  duration_ms: 1.621125
+  type: 'test'
+  ...
+# Subtest: approved Laura configuration remains unchanged from phase 1
+ok 119 - approved Laura configuration remains unchanged from phase 1
+  ---
+  duration_ms: 0.809625
+  type: 'test'
+  ...
+# Subtest: configurations and each repository result remain independent
+ok 120 - configurations and each repository result remain independent
+  ---
+  duration_ms: 0.27475
+  type: 'test'
+  ...
+# Subtest: visibility omits disabled sections and independently selects ceremony/reception
+ok 121 - visibility omits disabled sections and independently selects ceremony/reception
+  ---
+  duration_ms: 0.188875
+  type: 'test'
+  ...
+# Subtest: disabled fields and malformed section settings are diagnosed
+ok 122 - disabled fields and malformed section settings are diagnosed
+  ---
+  duration_ms: 0.373667
+  type: 'test'
+  ...
+# Subtest: theme defaults, presets, typography, ornaments, icons, backgrounds and colors resolve
+ok 123 - theme defaults, presets, typography, ornaments, icons, backgrounds and colors resolve
+  ---
+  duration_ms: 0.417875
+  type: 'test'
+  ...
+# Subtest: theme validation rejects unreadable combinations and arbitrary CSS payloads
+ok 124 - theme validation rejects unreadable combinations and arbitrary CSS payloads
+  ---
+  duration_ms: 0.153875
+  type: 'test'
+  ...
+# Subtest: all registered asset references exist; missing resources and cross-invitation paths fail
+ok 125 - all registered asset references exist; missing resources and cross-invitation paths fail
+  ---
+  duration_ms: 2.118666
+  type: 'test'
+  ...
+# Subtest: mandatory fields, dates, URLs, quantities, SEO and graphic references are validated
+ok 126 - mandatory fields, dates, URLs, quantities, SEO and graphic references are validated
+  ---
+  duration_ms: 2.954917
+  type: 'test'
+  ...
+# Subtest: RSVP rejects an empty guest name
+ok 127 - RSVP rejects an empty guest name
+  ---
+  duration_ms: 0.738292
+  type: 'test'
+  ...
+# Subtest: RSVP accepts a valid guest name
+ok 128 - RSVP accepts a valid guest name
+  ---
+  duration_ms: 0.358667
+  type: 'test'
+  ...
+# Subtest: RSVP trims and collapses unnecessary name whitespace
+ok 129 - RSVP trims and collapses unnecessary name whitespace
+  ---
+  duration_ms: 0.061041
+  type: 'test'
+  ...
+# Subtest: RSVP rejects more than 100 characters and accepts the boundary
+ok 130 - RSVP rejects more than 100 characters and accepts the boundary
+  ---
+  duration_ms: 0.064334
+  type: 'test'
+  ...
+# Subtest: RSVP requires explicit attendance and rejects unexpected answers
+ok 131 - RSVP requires explicit attendance and rejects unexpected answers
+  ---
+  duration_ms: 0.17225
+  type: 'test'
+  ...
+# Subtest: positive response without companions counts the primary guest
+ok 132 - positive response without companions counts the primary guest
+  ---
+  duration_ms: 0.094083
+  type: 'test'
+  ...
+# Subtest: positive response with companions calculates the total
+ok 133 - positive response with companions calculates the total
+  ---
+  duration_ms: 0.109916
+  type: 'test'
+  ...
+# Subtest: negative response contains no companion or total fields
+ok 134 - negative response contains no companion or total fields
+  ---
+  duration_ms: 0.080167
+  type: 'test'
+  ...
+# Subtest: declining attendance normalizes stale or invalid companions to zero
+ok 135 - declining attendance normalizes stale or invalid companions to zero
+  ---
+  duration_ms: 0.300917
+  type: 'test'
+  ...
+# Subtest: companion limit is independent and defaults to two
+ok 136 - companion limit is independent and defaults to two
+  ---
+  duration_ms: 0.321542
+  type: 'test'
+  ...
+# Subtest: WhatsApp phone normalizes allowed international formatting
+ok 137 - WhatsApp phone normalizes allowed international formatting
+  ---
+  duration_ms: 0.105041
+  type: 'test'
+  ...
+# Subtest: missing and malformed WhatsApp recipients never prepare URLs
+ok 138 - missing and malformed WhatsApp recipients never prepare URLs
+  ---
+  duration_ms: 0.120667
+  type: 'test'
+  ...
+# Subtest: special characters and multiline Spanish messages round-trip through URL encoding
+ok 139 - special characters and multiline Spanish messages round-trip through URL encoding
+  ---
+  duration_ms: 0.186542
+  type: 'test'
+  ...
+# Subtest: WhatsApp URL uses a fixed HTTPS host and digits-only recipient
+ok 140 - WhatsApp URL uses a fixed HTTPS host and digits-only recipient
+  ---
+  duration_ms: 0.132625
+  type: 'test'
+  ...
+# Subtest: messages use the correct couple and configurable copy
+ok 141 - messages use the correct couple and configurable copy
+  ---
+  duration_ms: 0.104291
+  type: 'test'
+  ...
+# Subtest: disabled RSVP cannot prepare a WhatsApp link
+ok 142 - disabled RSVP cannot prepare a WhatsApp link
+  ---
+  duration_ms: 0.329375
+  type: 'test'
+  ...
+# Subtest: expired deadlines and malformed deadline configurations block opening
+ok 143 - expired deadlines and malformed deadline configurations block opening
+  ---
+  duration_ms: 0.115958
+  type: 'test'
+  ...
+# Subtest: future, inclusive and absent deadlines allow preparation
+ok 144 - future, inclusive and absent deadlines allow preparation
+  ---
+  duration_ms: 0.046833
+  type: 'test'
+  ...
+# Subtest: existing demo configurations stay safe and independent; optional deadline validates
+ok 145 - existing demo configurations stay safe and independent; optional deadline validates
+  ---
+  duration_ms: 0.594291
+  type: 'test'
+  ...
+# Subtest: preparation has no automatic sending or network side effects
+ok 146 - preparation has no automatic sending or network side effects
+  ---
+  duration_ms: 0.115375
+  type: 'test'
+  ...
+1..146
+# tests 146
+# suites 0
+# pass 146
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5990.216291

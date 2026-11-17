@@ -16,7 +16,7 @@ export function requestToInvitation(input:WeddingInvitationRequest,slug:string,p
  const instant=(value:string)=>value.replace('.000','');
  const venue=(v:RequestedVenue,destination:string)=>({...v.location,startsAt:instant(v.startsAt),...(find(destination)[0]?{photo:find(destination)[0]}:{})});
  const couple=structuredClone(r.couple),names=`${couple.first} y ${couple.second}`,main=find('main')[0];
- const result:WeddingInvitation={
+ const result:WeddingInvitation={mode:'commercial',
   id:`generated-${slug}`,slug,couple,event:{startsAt:instant(r.venues.ceremony.startsAt),timeZone:r.event.timeZone},
   messages:{title:r.content.cover,romantic:r.content.cover,welcome:r.content.welcome??r.content.cover,closing:r.content.closing.trim()||defaultClosing,...(r.content.story?{story:r.content.story}:{})},
   ...(r.content.specialInstructions?{guestInstructions:r.content.specialInstructions}:{}),

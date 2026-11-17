@@ -101,5 +101,6 @@
     "noIndex": true,
     "image": "/invitations/fixture-generador-local/photos/main-01.webp"
   },
-  "demoNotice": "Invitación de prueba local con datos ficticios y recursos de demostración. No corresponde a un evento real."
+  "demoNotice": "Invitación de prueba local con datos ficticios y recursos de demostración. No corresponde a un evento real.",
+  "mode": "demo"
 }

@@ -21,7 +21,7 @@ export function validateRSVPInput(input: RSVPInput, maxCompanions = DEFAULT_MAX_
  return {valid:true,data:{name,attendance:attendance as 'yes'|'no',companions}};
 }
 export function getRSVPAvailability(config: RSVPConfig, now: Date): RSVPAvailability {
- if (!config.enabled) return 'disabled';
+ if (config.demoMode===true||!config.enabled) return 'disabled';
  if (!config.phone?.trim()) return 'missing-phone';
  if (!normalizeWhatsAppPhone(config.phone)) return 'invalid-phone';
  if (config.deadline !== undefined) {

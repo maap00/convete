@@ -1,0 +1,1710 @@
+{
+  "auditedAt": "2026-11-17T18:45:33.431Z",
+  "origin": "https://convete.vercel.app",
+  "method": "curl GET con compresión, Accept WebP para optimizador, sin seguir redirecciones; recursos autorizados, respuestas acotadas",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 414,
+      "totalMs": 485,
+      "downloadBytes": 1766,
+      "decodedBytes": 6414,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/",
+        "server": "Vercel",
+        "etag": "W/\"d95864338251162567f7bc795ba14fc3\"",
+        "content-encoding": "gzip"
+      },
+      "title": "Invitaciones · maap00.world",
+      "lang": "es",
+      "metadata": [
+        "<meta name=\"description\" content=\"Base técnica de invitaciones digitales personalizables.\"/>",
+        "<meta name=\"robots\" content=\"noindex, nofollow\"/>"
+      ],
+      "images": [],
+      "stylesheets": [
+        "/_next/static/immutable/chunks/08nfvz6yly90f.css"
+      ],
+      "fontPreloads": [],
+      "scripts": [
+        "/_next/static/immutable/chunks/1vcso2l8v1y68.js",
+        "/_next/static/immutable/chunks/0b6yocxw23s6h.js",
+        "/_next/static/immutable/chunks/2smolq_k84s0h.js",
+        "/_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js",
+        "/_next/static/immutable/chunks/3sav3yefleyvp.js",
+        "/_next/static/immutable/chunks/2p53kkb69hb3l.js",
+        "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "/_next/static/immutable/chunks/2192tva0r8ef2.js"
+      ],
+      "sections": [],
+      "fixtureListed": true,
+      "privateContactMarker": false
+    },
+    {
+      "path": "/invitacion/laura-martin",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 491,
+      "totalMs": 594,
+      "downloadBytes": 8874,
+      "decodedBytes": 60992,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitacion/laura-martin",
+        "server": "Vercel",
+        "etag": "W/\"0a9dca49caf89fc0d684cff66d3c736f\"",
+        "content-encoding": "gzip"
+      },
+      "title": "Laura y Martín · Jardín Eterno",
+      "lang": "es",
+      "metadata": [
+        "<meta name=\"description\" content=\"Demostración técnica de una invitación de boda reutilizable. Datos ficticios.\"/>",
+        "<meta name=\"robots\" content=\"noindex, nofollow\"/>",
+        "<meta property=\"og:title\" content=\"Laura y Martín · Jardín Eterno\"/>",
+        "<meta property=\"og:description\" content=\"Demostración técnica de una invitación de boda reutilizable. Datos ficticios.\"/>",
+        "<meta property=\"og:locale\" content=\"es_VE\"/>",
+        "<meta property=\"og:type\" content=\"website\"/>",
+        "<meta name=\"twitter:card\" content=\"summary_large_image\"/>",
+        "<meta name=\"twitter:title\" content=\"Laura y Martín · Jardín Eterno\"/>",
+        "<meta name=\"twitter:description\" content=\"Demostración técnica de una invitación de boda reutilizable. Datos ficticios.\"/>"
+      ],
+      "images": [
+        {
+          "src": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "",
+          "width": "600",
+          "height": "600",
+          "loading": "eager"
+        },
+        {
+          "src": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "",
+          "width": "600",
+          "height": "600",
+          "loading": "lazy"
+        },
+        {
+          "src": "/themes/botanical/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "Pareja de novios abrazándose al atardecer. Fotografía de demostración.",
+          "width": "1400",
+          "height": "689",
+          "loading": "lazy"
+        },
+        {
+          "src": "/themes/botanical/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        },
+        {
+          "src": "/themes/botanical/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=256&amp;q=75 256w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "Jardín preparado para una ceremonia de boda. Fotografía ilustrativa.",
+          "width": "800",
+          "height": "1200",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=256&amp;q=75 256w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "Mesas preparadas para una recepción de boda al aire libre.",
+          "width": "1000",
+          "height": "667",
+          "loading": "lazy"
+        },
+        {
+          "src": "/themes/botanical/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        },
+        {
+          "src": "/themes/botanical/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fbouquet-white.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fbouquet-white.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fbouquet-white.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fbouquet-white.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fbouquet-white.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fbouquet-white.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fbouquet-white.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fbouquet-white.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fbouquet-white.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fbouquet-white.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "Ramo de flores blancas y follaje de boda.",
+          "width": "800",
+          "height": "533",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Frings.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Frings.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Frings.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Frings.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Frings.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Frings.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Frings.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Frings.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Frings.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Frings.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "Alianzas de boda sobre un soporte de joyería.",
+          "width": "800",
+          "height": "533",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcake.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcake.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcake.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcake.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcake.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcake.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcake.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcake.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcake.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcake.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "Pastel de boda decorado con flores.",
+          "width": "800",
+          "height": "1200",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "Mesas preparadas para una recepción de boda al aire libre.",
+          "width": "1000",
+          "height": "667",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "Jardín preparado para una ceremonia de boda. Fotografía ilustrativa.",
+          "width": "800",
+          "height": "1200",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "Pareja de novios abrazándose al atardecer. Fotografía de demostración.",
+          "width": "1400",
+          "height": "689",
+          "loading": "lazy"
+        },
+        {
+          "src": "/themes/botanical/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "",
+          "width": "600",
+          "height": "600",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "",
+          "width": "600",
+          "height": "600",
+          "loading": "lazy"
+        },
+        {
+          "src": "/themes/botanical/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        }
+      ],
+      "stylesheets": [
+        "/_next/static/immutable/chunks/08nfvz6yly90f.css"
+      ],
+      "fontPreloads": [],
+      "scripts": [
+        "/_next/static/immutable/chunks/1vcso2l8v1y68.js",
+        "/_next/static/immutable/chunks/0b6yocxw23s6h.js",
+        "/_next/static/immutable/chunks/2smolq_k84s0h.js",
+        "/_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js",
+        "/_next/static/immutable/chunks/3sav3yefleyvp.js",
+        "/_next/static/immutable/chunks/2p53kkb69hb3l.js",
+        "/_next/static/immutable/chunks/33kha48-5t2zm.js",
+        "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "/_next/static/immutable/chunks/2192tva0r8ef2.js"
+      ],
+      "sections": [
+        "welcome",
+        "countdown",
+        "venues",
+        "itinerary",
+        "gallery",
+        "dressCode",
+        "gifts",
+        "rsvp",
+        "closing"
+      ],
+      "fixtureListed": false,
+      "privateContactMarker": false
+    },
+    {
+      "path": "/invitacion/ana-carlos",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 392,
+      "totalMs": 479,
+      "downloadBytes": 5830,
+      "decodedBytes": 33071,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitacion/ana-carlos",
+        "server": "Vercel",
+        "etag": "W/\"2cda2a40f7aa800b15b1f0af82c8fa51\"",
+        "content-encoding": "gzip"
+      },
+      "title": "Ana y Carlos · Una tarde entre flores",
+      "lang": "es",
+      "metadata": [
+        "<meta name=\"description\" content=\"Segunda demostración de Convete: una boda ficticia en tonos rosa antiguo.\"/>",
+        "<meta name=\"robots\" content=\"noindex, nofollow\"/>",
+        "<meta property=\"og:title\" content=\"Ana y Carlos · Una tarde entre flores\"/>",
+        "<meta property=\"og:description\" content=\"Segunda demostración de Convete: una boda ficticia en tonos rosa antiguo.\"/>",
+        "<meta property=\"og:locale\" content=\"es_VE\"/>",
+        "<meta property=\"og:type\" content=\"website\"/>",
+        "<meta name=\"twitter:card\" content=\"summary_large_image\"/>",
+        "<meta name=\"twitter:title\" content=\"Ana y Carlos · Una tarde entre flores\"/>",
+        "<meta name=\"twitter:description\" content=\"Segunda demostración de Convete: una boda ficticia en tonos rosa antiguo.\"/>"
+      ],
+      "images": [
+        {
+          "src": "/invitations/ana-carlos/backgrounds/paper.svg",
+          "alt": "",
+          "loading": "lazy"
+        },
+        {
+          "src": "/invitations/ana-carlos/ornaments/sprig.svg",
+          "alt": "",
+          "width": "600",
+          "height": "600",
+          "loading": "eager"
+        },
+        {
+          "src": "/invitations/ana-carlos/ornaments/sprig.svg",
+          "alt": "",
+          "width": "600",
+          "height": "600",
+          "loading": "lazy"
+        },
+        {
+          "src": "/invitations/ana-carlos/ornaments/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "Mesa de boda con flores, fotografía ilustrativa de la demo.",
+          "width": "1000",
+          "height": "667",
+          "loading": "lazy"
+        },
+        {
+          "src": "/invitations/ana-carlos/ornaments/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        },
+        {
+          "src": "/invitations/ana-carlos/ornaments/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fceremony.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fceremony.webp&amp;w=256&amp;q=75 256w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fceremony.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fceremony.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fceremony.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fceremony.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fceremony.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fceremony.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fceremony.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fceremony.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fceremony.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "Ramo blanco de demostración para la ceremonia.",
+          "width": "800",
+          "height": "533",
+          "loading": "lazy"
+        },
+        {
+          "src": "/invitations/ana-carlos/ornaments/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "Mesa de boda con flores, fotografía ilustrativa de la demo.",
+          "width": "1000",
+          "height": "667",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fcelebration.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fcelebration.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fcelebration.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fcelebration.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fcelebration.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fcelebration.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fcelebration.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fcelebration.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fcelebration.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fcelebration.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "Pastel con flores, fotografía de demostración.",
+          "width": "800",
+          "height": "1200",
+          "loading": "lazy"
+        },
+        {
+          "src": "/invitations/ana-carlos/ornaments/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        },
+        {
+          "src": "/invitations/ana-carlos/ornaments/sprig.svg",
+          "alt": "",
+          "width": "600",
+          "height": "600",
+          "loading": "lazy"
+        },
+        {
+          "src": "/invitations/ana-carlos/ornaments/sprig.svg",
+          "alt": "",
+          "width": "600",
+          "height": "600",
+          "loading": "lazy"
+        },
+        {
+          "src": "/invitations/ana-carlos/ornaments/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        }
+      ],
+      "stylesheets": [
+        "/_next/static/immutable/chunks/08nfvz6yly90f.css"
+      ],
+      "fontPreloads": [],
+      "scripts": [
+        "/_next/static/immutable/chunks/1vcso2l8v1y68.js",
+        "/_next/static/immutable/chunks/0b6yocxw23s6h.js",
+        "/_next/static/immutable/chunks/2smolq_k84s0h.js",
+        "/_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js",
+        "/_next/static/immutable/chunks/3sav3yefleyvp.js",
+        "/_next/static/immutable/chunks/2p53kkb69hb3l.js",
+        "/_next/static/immutable/chunks/33kha48-5t2zm.js",
+        "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "/_next/static/immutable/chunks/2192tva0r8ef2.js"
+      ],
+      "sections": [
+        "welcome",
+        "countdown",
+        "venues",
+        "gallery",
+        "dressCode",
+        "closing"
+      ],
+      "fixtureListed": false,
+      "privateContactMarker": false
+    },
+    {
+      "path": "/solicitar-invitacion",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 392,
+      "totalMs": 602,
+      "downloadBytes": 3152,
+      "decodedBytes": 11222,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/solicitar-invitacion",
+        "server": "Vercel",
+        "etag": "W/\"e5bcde93dc7b657b8fcf5d5365bb6d47\"",
+        "content-encoding": "gzip"
+      },
+      "title": "Creemos su invitación · Convete",
+      "lang": "es",
+      "metadata": [
+        "<meta name=\"description\" content=\"Prepara localmente los datos y fotografías de tu boda y descarga una solicitud de invitación digital.\"/>",
+        "<meta name=\"robots\" content=\"noindex, nofollow\"/>"
+      ],
+      "images": [],
+      "stylesheets": [
+        "/_next/static/immutable/chunks/08nfvz6yly90f.css",
+        "/_next/static/immutable/chunks/449mgb955ovb6.css"
+      ],
+      "fontPreloads": [],
+      "scripts": [
+        "/_next/static/immutable/chunks/1vcso2l8v1y68.js",
+        "/_next/static/immutable/chunks/0b6yocxw23s6h.js",
+        "/_next/static/immutable/chunks/2smolq_k84s0h.js",
+        "/_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js",
+        "/_next/static/immutable/chunks/3sav3yefleyvp.js",
+        "/_next/static/immutable/chunks/2p53kkb69hb3l.js",
+        "/_next/static/immutable/chunks/2cq7mz65-tagt.js",
+        "/_next/static/immutable/chunks/2nsj06r-8q2om.js",
+        "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "/_next/static/immutable/chunks/2192tva0r8ef2.js"
+      ],
+      "sections": [],
+      "fixtureListed": false,
+      "privateContactMarker": false
+    },
+    {
+      "path": "/invitacion/no-existe-auditoria-5-3",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 620,
+      "totalMs": 626,
+      "downloadBytes": 1665,
+      "decodedBytes": 6053,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitacion/[slug]",
+        "server": "Vercel",
+        "etag": "W/\"20dnga9vg14nz\"",
+        "content-encoding": "gzip"
+      },
+      "title": "Invitaciones · maap00.world",
+      "metadata": [
+        "<meta name=\"robots\" content=\"noindex\"/>",
+        "<meta name=\"description\" content=\"Base técnica de invitaciones digitales personalizables.\"/>",
+        "<meta name=\"robots\" content=\"noindex, nofollow\"/>"
+      ],
+      "images": [],
+      "stylesheets": [],
+      "fontPreloads": [],
+      "scripts": [
+        "/_next/static/immutable/chunks/1vcso2l8v1y68.js",
+        "/_next/static/immutable/chunks/0b6yocxw23s6h.js",
+        "/_next/static/immutable/chunks/2smolq_k84s0h.js",
+        "/_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js",
+        "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "/_next/static/immutable/chunks/2192tva0r8ef2.js"
+      ],
+      "sections": [],
+      "fixtureListed": false,
+      "privateContactMarker": false
+    },
+    {
+      "path": "/invitacion/fixture-generador-local",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 386,
+      "totalMs": 470,
+      "downloadBytes": 6343,
+      "decodedBytes": 38807,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitacion/fixture-generador-local",
+        "server": "Vercel",
+        "etag": "W/\"d5b2fcae2ce40f62e7f83735b0fe4004\"",
+        "content-encoding": "gzip"
+      },
+      "title": "Alma Ficticia de los Jardines del Sol y Bruno Ejemplo · Nuestra boda",
+      "lang": "es",
+      "metadata": [
+        "<meta name=\"description\" content=\"Invitación de boda de Alma Ficticia de los Jardines del Sol y Bruno Ejemplo. 2027-12-04.\"/>",
+        "<meta name=\"robots\" content=\"noindex, nofollow\"/>",
+        "<meta property=\"og:title\" content=\"Alma Ficticia de los Jardines del Sol y Bruno Ejemplo · Nuestra boda\"/>",
+        "<meta property=\"og:description\" content=\"Invitación de boda de Alma Ficticia de los Jardines del Sol y Bruno Ejemplo. 2027-12-04.\"/>",
+        "<meta property=\"og:locale\" content=\"es_VE\"/>",
+        "<meta property=\"og:type\" content=\"website\"/>",
+        "<meta name=\"twitter:card\" content=\"summary_large_image\"/>",
+        "<meta name=\"twitter:title\" content=\"Alma Ficticia de los Jardines del Sol y Bruno Ejemplo · Nuestra boda\"/>",
+        "<meta name=\"twitter:description\" content=\"Invitación de boda de Alma Ficticia de los Jardines del Sol y Bruno Ejemplo. 2027-12-04.\"/>"
+      ],
+      "images": [
+        {
+          "src": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "",
+          "width": "600",
+          "height": "600",
+          "loading": "eager"
+        },
+        {
+          "src": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "",
+          "width": "600",
+          "height": "600",
+          "loading": "lazy"
+        },
+        {
+          "src": "/themes/botanical/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        },
+        {
+          "src": "/themes/botanical/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Finvitations%2Ffixture-generador-local%2Fphotos%2Fmain-01.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Finvitations%2Ffixture-generador-local%2Fphotos%2Fmain-01.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Finvitations%2Ffixture-generador-local%2Fphotos%2Fmain-01.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Finvitations%2Ffixture-generador-local%2Fphotos%2Fmain-01.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Finvitations%2Ffixture-generador-local%2Fphotos%2Fmain-01.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Finvitations%2Ffixture-generador-local%2Fphotos%2Fmain-01.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Finvitations%2Ffixture-generador-local%2Fphotos%2Fmain-01.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Finvitations%2Ffixture-generador-local%2Fphotos%2Fmain-01.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Finvitations%2Ffixture-generador-local%2Fphotos%2Fmain-01.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "Alma Ficticia de los Jardines del Sol y Bruno Ejemplo · Fotografía principal",
+          "width": "1200",
+          "height": "630",
+          "loading": "lazy"
+        },
+        {
+          "src": "/themes/botanical/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        },
+        {
+          "src": "/themes/botanical/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "",
+          "width": "600",
+          "height": "600",
+          "loading": "lazy"
+        },
+        {
+          "src": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=3840&amp;q=75",
+          "srcSet": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=32&amp;q=75 32w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=48&amp;q=75 48w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=64&amp;q=75 64w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=96&amp;q=75 96w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=128&amp;q=75 128w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=256&amp;q=75 256w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&amp;w=3840&amp;q=75 3840w",
+          "alt": "",
+          "width": "600",
+          "height": "600",
+          "loading": "lazy"
+        },
+        {
+          "src": "/themes/botanical/sprig.svg",
+          "alt": "",
+          "width": "64",
+          "height": "44",
+          "loading": "lazy"
+        }
+      ],
+      "stylesheets": [
+        "/_next/static/immutable/chunks/08nfvz6yly90f.css"
+      ],
+      "fontPreloads": [],
+      "scripts": [
+        "/_next/static/immutable/chunks/1vcso2l8v1y68.js",
+        "/_next/static/immutable/chunks/0b6yocxw23s6h.js",
+        "/_next/static/immutable/chunks/2smolq_k84s0h.js",
+        "/_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js",
+        "/_next/static/immutable/chunks/3sav3yefleyvp.js",
+        "/_next/static/immutable/chunks/2p53kkb69hb3l.js",
+        "/_next/static/immutable/chunks/33kha48-5t2zm.js",
+        "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "/_next/static/immutable/chunks/2192tva0r8ef2.js"
+      ],
+      "sections": [
+        "countdown",
+        "welcome",
+        "venues",
+        "itinerary",
+        "rsvp",
+        "closing"
+      ],
+      "fixtureListed": true,
+      "privateContactMarker": false
+    },
+    {
+      "path": "/invitations/fixture-generador-local/invitation.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 387,
+      "totalMs": 477,
+      "downloadBytes": 1015,
+      "decodedBytes": 3000,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/fixture-generador-local/invitation.json",
+        "server": "Vercel",
+        "etag": "W/\"203cdc033c8b7a0c797fd723a2cbbd92\"",
+        "content-encoding": "gzip"
+      },
+      "jsonKeys": [
+        "id",
+        "slug",
+        "couple",
+        "event",
+        "messages",
+        "ceremony",
+        "reception",
+        "storyPhoto",
+        "photos",
+        "itinerary",
+        "dressCode",
+        "gifts",
+        "rsvp",
+        "theme",
+        "personalization",
+        "sections",
+        "seo",
+        "demoNotice"
+      ]
+    },
+    {
+      "path": "/invitations/fixture-generador-local/preparation-report.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 515,
+      "totalMs": 615,
+      "downloadBytes": 995,
+      "decodedBytes": 995,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/fixture-generador-local/preparation-report.json",
+        "server": "Vercel",
+        "etag": "\"d46d8d17d645c2daf4bfe5cdc7ae6f0a\""
+      },
+      "jsonKeys": [
+        "status",
+        "slug",
+        "couple",
+        "theme",
+        "sections",
+        "photos",
+        "warnings",
+        "files",
+        "route",
+        "elapsedMs"
+      ]
+    },
+    {
+      "path": "/docs/tarea-4.3.md",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 503,
+      "totalMs": 562,
+      "downloadBytes": 1633,
+      "decodedBytes": 6135,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/404",
+        "server": "Vercel",
+        "etag": "W/\"c146e5650a68d29febc7ce23e189b91d\"",
+        "content-encoding": "gzip"
+      },
+      "title": "Invitaciones · maap00.world",
+      "lang": "es",
+      "metadata": [
+        "<meta name=\"robots\" content=\"noindex\"/>",
+        "<meta name=\"description\" content=\"Base técnica de invitaciones digitales personalizables.\"/>",
+        "<meta name=\"robots\" content=\"noindex, nofollow\"/>"
+      ],
+      "images": [],
+      "stylesheets": [
+        "/_next/static/immutable/chunks/08nfvz6yly90f.css"
+      ],
+      "fontPreloads": [],
+      "scripts": [
+        "/_next/static/immutable/chunks/1vcso2l8v1y68.js",
+        "/_next/static/immutable/chunks/0b6yocxw23s6h.js",
+        "/_next/static/immutable/chunks/2smolq_k84s0h.js",
+        "/_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js",
+        "/_next/static/immutable/chunks/3sav3yefleyvp.js",
+        "/_next/static/immutable/chunks/2p53kkb69hb3l.js",
+        "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "/_next/static/immutable/chunks/2192tva0r8ef2.js"
+      ],
+      "sections": [],
+      "fixtureListed": false,
+      "privateContactMarker": false
+    },
+    {
+      "path": "/docs/examples/solicitud-invitacion-recorrido-4.1.1.json",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 377,
+      "totalMs": 466,
+      "downloadBytes": 1633,
+      "decodedBytes": 6135,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/404",
+        "server": "Vercel",
+        "etag": "W/\"c146e5650a68d29febc7ce23e189b91d\"",
+        "content-encoding": "gzip"
+      },
+      "title": "Invitaciones · maap00.world",
+      "lang": "es",
+      "metadata": [
+        "<meta name=\"robots\" content=\"noindex\"/>",
+        "<meta name=\"description\" content=\"Base técnica de invitaciones digitales personalizables.\"/>",
+        "<meta name=\"robots\" content=\"noindex, nofollow\"/>"
+      ],
+      "images": [],
+      "stylesheets": [
+        "/_next/static/immutable/chunks/08nfvz6yly90f.css"
+      ],
+      "fontPreloads": [],
+      "scripts": [
+        "/_next/static/immutable/chunks/1vcso2l8v1y68.js",
+        "/_next/static/immutable/chunks/0b6yocxw23s6h.js",
+        "/_next/static/immutable/chunks/2smolq_k84s0h.js",
+        "/_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js",
+        "/_next/static/immutable/chunks/3sav3yefleyvp.js",
+        "/_next/static/immutable/chunks/2p53kkb69hb3l.js",
+        "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "/_next/static/immutable/chunks/2192tva0r8ef2.js"
+      ],
+      "sections": [],
+      "fixtureListed": false,
+      "privateContactMarker": false
+    },
+    {
+      "path": "/invitations/laura-martin/README.md",
+      "status": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 479,
+      "totalMs": 480,
+      "downloadBytes": 425,
+      "decodedBytes": 425,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/laura-martin/README.md",
+        "server": "Vercel",
+        "etag": "\"fb124da193298bf5bdfd78a68f078801\""
+      }
+    },
+    {
+      "path": "/invitations/ana-carlos/README.md",
+      "status": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 571,
+      "totalMs": 571,
+      "downloadBytes": 855,
+      "decodedBytes": 855,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/ana-carlos/README.md",
+        "server": "Vercel",
+        "etag": "\"7fbf45dd8b9d773d046bbe03ef651546\""
+      }
+    },
+    {
+      "path": "/.convete/approvals/laura-martin",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 398,
+      "totalMs": 462,
+      "downloadBytes": 1633,
+      "decodedBytes": 6135,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/404",
+        "server": "Vercel",
+        "etag": "W/\"c146e5650a68d29febc7ce23e189b91d\"",
+        "content-encoding": "gzip"
+      },
+      "title": "Invitaciones · maap00.world",
+      "lang": "es",
+      "metadata": [
+        "<meta name=\"robots\" content=\"noindex\"/>",
+        "<meta name=\"description\" content=\"Base técnica de invitaciones digitales personalizables.\"/>",
+        "<meta name=\"robots\" content=\"noindex, nofollow\"/>"
+      ],
+      "images": [],
+      "stylesheets": [
+        "/_next/static/immutable/chunks/08nfvz6yly90f.css"
+      ],
+      "fontPreloads": [],
+      "scripts": [
+        "/_next/static/immutable/chunks/1vcso2l8v1y68.js",
+        "/_next/static/immutable/chunks/0b6yocxw23s6h.js",
+        "/_next/static/immutable/chunks/2smolq_k84s0h.js",
+        "/_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js",
+        "/_next/static/immutable/chunks/3sav3yefleyvp.js",
+        "/_next/static/immutable/chunks/2p53kkb69hb3l.js",
+        "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "/_next/static/immutable/chunks/2192tva0r8ef2.js"
+      ],
+      "sections": [],
+      "fixtureListed": false,
+      "privateContactMarker": false
+    },
+    {
+      "path": "/.convete/approvals/laura-martin/",
+      "status": 308,
+      "contentType": "text/plain",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "location": "/.convete/approvals/laura-martin",
+      "https": true,
+      "ttfbMs": 464,
+      "totalMs": 464,
+      "downloadBytes": 15,
+      "decodedBytes": 15,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "server": "Vercel"
+      }
+    },
+    {
+      "path": "/package.json",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 382,
+      "totalMs": 464,
+      "downloadBytes": 1633,
+      "decodedBytes": 6135,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/404",
+        "server": "Vercel",
+        "etag": "W/\"c146e5650a68d29febc7ce23e189b91d\"",
+        "content-encoding": "gzip"
+      },
+      "title": "Invitaciones · maap00.world",
+      "lang": "es",
+      "metadata": [
+        "<meta name=\"robots\" content=\"noindex\"/>",
+        "<meta name=\"description\" content=\"Base técnica de invitaciones digitales personalizables.\"/>",
+        "<meta name=\"robots\" content=\"noindex, nofollow\"/>"
+      ],
+      "images": [],
+      "stylesheets": [
+        "/_next/static/immutable/chunks/08nfvz6yly90f.css"
+      ],
+      "fontPreloads": [],
+      "scripts": [
+        "/_next/static/immutable/chunks/1vcso2l8v1y68.js",
+        "/_next/static/immutable/chunks/0b6yocxw23s6h.js",
+        "/_next/static/immutable/chunks/2smolq_k84s0h.js",
+        "/_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js",
+        "/_next/static/immutable/chunks/3sav3yefleyvp.js",
+        "/_next/static/immutable/chunks/2p53kkb69hb3l.js",
+        "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "/_next/static/immutable/chunks/2192tva0r8ef2.js"
+      ],
+      "sections": [],
+      "fixtureListed": false,
+      "privateContactMarker": false
+    },
+    {
+      "path": "/.env",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 380,
+      "totalMs": 463,
+      "downloadBytes": 1633,
+      "decodedBytes": 6135,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/404",
+        "server": "Vercel",
+        "etag": "W/\"c146e5650a68d29febc7ce23e189b91d\"",
+        "content-encoding": "gzip"
+      },
+      "title": "Invitaciones · maap00.world",
+      "lang": "es",
+      "metadata": [
+        "<meta name=\"robots\" content=\"noindex\"/>",
+        "<meta name=\"description\" content=\"Base técnica de invitaciones digitales personalizables.\"/>",
+        "<meta name=\"robots\" content=\"noindex, nofollow\"/>"
+      ],
+      "images": [],
+      "stylesheets": [
+        "/_next/static/immutable/chunks/08nfvz6yly90f.css"
+      ],
+      "fontPreloads": [],
+      "scripts": [
+        "/_next/static/immutable/chunks/1vcso2l8v1y68.js",
+        "/_next/static/immutable/chunks/0b6yocxw23s6h.js",
+        "/_next/static/immutable/chunks/2smolq_k84s0h.js",
+        "/_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js",
+        "/_next/static/immutable/chunks/3sav3yefleyvp.js",
+        "/_next/static/immutable/chunks/2p53kkb69hb3l.js",
+        "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "/_next/static/immutable/chunks/2192tva0r8ef2.js"
+      ],
+      "sections": [],
+      "fixtureListed": false,
+      "privateContactMarker": false
+    },
+    {
+      "path": "/robots.txt",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 436,
+      "totalMs": 517,
+      "downloadBytes": 1633,
+      "decodedBytes": 6135,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/404",
+        "server": "Vercel",
+        "etag": "W/\"c146e5650a68d29febc7ce23e189b91d\"",
+        "content-encoding": "gzip"
+      },
+      "title": "Invitaciones · maap00.world",
+      "lang": "es",
+      "metadata": [
+        "<meta name=\"robots\" content=\"noindex\"/>",
+        "<meta name=\"description\" content=\"Base técnica de invitaciones digitales personalizables.\"/>",
+        "<meta name=\"robots\" content=\"noindex, nofollow\"/>"
+      ],
+      "images": [],
+      "stylesheets": [
+        "/_next/static/immutable/chunks/08nfvz6yly90f.css"
+      ],
+      "fontPreloads": [],
+      "scripts": [
+        "/_next/static/immutable/chunks/1vcso2l8v1y68.js",
+        "/_next/static/immutable/chunks/0b6yocxw23s6h.js",
+        "/_next/static/immutable/chunks/2smolq_k84s0h.js",
+        "/_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js",
+        "/_next/static/immutable/chunks/3sav3yefleyvp.js",
+        "/_next/static/immutable/chunks/2p53kkb69hb3l.js",
+        "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "/_next/static/immutable/chunks/2192tva0r8ef2.js"
+      ],
+      "sections": [],
+      "fixtureListed": false,
+      "privateContactMarker": false
+    },
+    {
+      "path": "/_next/static/immutable/chunks/1vcso2l8v1y68.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "https": true,
+      "ttfbMs": 390,
+      "totalMs": 474,
+      "downloadBytes": 9100,
+      "decodedBytes": 34197,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/_next/static/immutable/chunks/1vcso2l8v1y68.js",
+        "server": "Vercel",
+        "etag": "W/\"_next/static/immutable/chunks/1vcso2l8v1y68.js\"",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "path": "/invitations/laura-martin/social.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 454,
+      "totalMs": 599,
+      "downloadBytes": 39048,
+      "decodedBytes": 39048,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/laura-martin/social.jpg",
+        "server": "Vercel",
+        "etag": "\"ef2ac105fe671f10c91dcbaba0c367d4\""
+      },
+      "image": {
+        "format": "jpeg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "path": "/invitations/ana-carlos/social.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 472,
+      "totalMs": 685,
+      "downloadBytes": 65278,
+      "decodedBytes": 65278,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/ana-carlos/social.jpg",
+        "server": "Vercel",
+        "etag": "\"63d1e1fb4b6149de916140f38c4b5669\""
+      },
+      "image": {
+        "format": "jpeg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "path": "/_next/static/immutable/chunks/0b6yocxw23s6h.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "https": true,
+      "ttfbMs": 480,
+      "totalMs": 708,
+      "downloadBytes": 72542,
+      "decodedBytes": 229558,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/_next/static/immutable/chunks/0b6yocxw23s6h.js",
+        "server": "Vercel",
+        "etag": "W/\"_next/static/immutable/chunks/0b6yocxw23s6h.js\"",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "path": "/_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "https": true,
+      "ttfbMs": 387,
+      "totalMs": 479,
+      "downloadBytes": 3913,
+      "decodedBytes": 9974,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js",
+        "server": "Vercel",
+        "etag": "W/\"_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js\"",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "path": "/_next/static/immutable/chunks/3sav3yefleyvp.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "https": true,
+      "ttfbMs": 401,
+      "totalMs": 491,
+      "downloadBytes": 3536,
+      "decodedBytes": 13994,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/_next/static/immutable/chunks/3sav3yefleyvp.js",
+        "server": "Vercel",
+        "etag": "W/\"_next/static/immutable/chunks/3sav3yefleyvp.js\"",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "path": "/_next/static/immutable/chunks/2p53kkb69hb3l.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "https": true,
+      "ttfbMs": 409,
+      "totalMs": 492,
+      "downloadBytes": 3280,
+      "decodedBytes": 7862,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/_next/static/immutable/chunks/2p53kkb69hb3l.js",
+        "server": "Vercel",
+        "etag": "W/\"_next/static/immutable/chunks/2p53kkb69hb3l.js\"",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "path": "/_next/static/immutable/chunks/2smolq_k84s0h.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "https": true,
+      "ttfbMs": 412,
+      "totalMs": 587,
+      "downloadBytes": 45552,
+      "decodedBytes": 164364,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/_next/static/immutable/chunks/2smolq_k84s0h.js",
+        "server": "Vercel",
+        "etag": "W/\"_next/static/immutable/chunks/2smolq_k84s0h.js\"",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "path": "/_next/static/immutable/chunks/33kha48-5t2zm.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "https": true,
+      "ttfbMs": 380,
+      "totalMs": 472,
+      "downloadBytes": 10221,
+      "decodedBytes": 27062,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/_next/static/immutable/chunks/33kha48-5t2zm.js",
+        "server": "Vercel",
+        "etag": "W/\"_next/static/immutable/chunks/33kha48-5t2zm.js\"",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "path": "/_next/static/immutable/chunks/2192tva0r8ef2.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "https": true,
+      "ttfbMs": 380,
+      "totalMs": 472,
+      "downloadBytes": 2020,
+      "decodedBytes": 5600,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/_next/static/immutable/chunks/2192tva0r8ef2.js",
+        "server": "Vercel",
+        "etag": "W/\"_next/static/immutable/chunks/2192tva0r8ef2.js\"",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "path": "/_next/static/immutable/chunks/08nfvz6yly90f.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "https": true,
+      "ttfbMs": 448,
+      "totalMs": 497,
+      "downloadBytes": 5382,
+      "decodedBytes": 19753,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/_next/static/immutable/chunks/08nfvz6yly90f.css",
+        "server": "Vercel",
+        "etag": "W/\"_next/static/immutable/chunks/08nfvz6yly90f.css\"",
+        "content-encoding": "gzip"
+      },
+      "fontURLs": [
+        "/fonts/cormorant.woff2",
+        "/fonts/great-vibes.woff2",
+        "/fonts/inter.woff2"
+      ]
+    },
+    {
+      "path": "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "https": true,
+      "ttfbMs": 496,
+      "totalMs": 650,
+      "downloadBytes": 39797,
+      "decodedBytes": 112594,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+        "server": "Vercel",
+        "etag": "W/\"_next/static/immutable/chunks/0c0hxoamwjsbw.js\"",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "path": "/_next/static/immutable/chunks/2nsj06r-8q2om.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "https": true,
+      "ttfbMs": 524,
+      "totalMs": 639,
+      "downloadBytes": 14386,
+      "decodedBytes": 44917,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/_next/static/immutable/chunks/2nsj06r-8q2om.js",
+        "server": "Vercel",
+        "etag": "W/\"_next/static/immutable/chunks/2nsj06r-8q2om.js\"",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "path": "/_next/static/immutable/chunks/2cq7mz65-tagt.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "https": true,
+      "ttfbMs": 549,
+      "totalMs": 640,
+      "downloadBytes": 1564,
+      "decodedBytes": 3170,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/_next/static/immutable/chunks/2cq7mz65-tagt.js",
+        "server": "Vercel",
+        "etag": "W/\"_next/static/immutable/chunks/2cq7mz65-tagt.js\"",
+        "content-encoding": "gzip"
+      }
+    },
+    {
+      "path": "/_next/static/immutable/chunks/449mgb955ovb6.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "https": true,
+      "ttfbMs": 525,
+      "totalMs": 640,
+      "downloadBytes": 2548,
+      "decodedBytes": 10305,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/_next/static/immutable/chunks/449mgb955ovb6.css",
+        "server": "Vercel",
+        "etag": "W/\"_next/static/immutable/chunks/449mgb955ovb6.css\"",
+        "content-encoding": "gzip"
+      },
+      "fontURLs": []
+    },
+    {
+      "path": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&w=3840&q=75",
+      "status": 200,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 524,
+      "totalMs": 988,
+      "downloadBytes": 123458,
+      "decodedBytes": 123458,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "content-security-policy": "script-src 'none'; frame-src 'none'; sandbox;",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/themes/botanical/floral-corner.webp",
+        "server": "Vercel"
+      },
+      "image": {
+        "format": "webp",
+        "width": 800,
+        "height": 800
+      }
+    },
+    {
+      "path": "/themes/botanical/sprig.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 543,
+      "totalMs": 545,
+      "downloadBytes": 504,
+      "decodedBytes": 504,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/themes/botanical/sprig.svg",
+        "server": "Vercel",
+        "etag": "\"bb505dee27ad48a9868b9c9b61505744\""
+      },
+      "image": {
+        "format": "svg",
+        "width": 90,
+        "height": 55
+      }
+    },
+    {
+      "path": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&w=3840&q=75",
+      "status": 200,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 602,
+      "totalMs": 664,
+      "downloadBytes": 10342,
+      "decodedBytes": 10342,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "content-security-policy": "script-src 'none'; frame-src 'none'; sandbox;",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/laura-martin/photos/couple.webp",
+        "server": "Vercel"
+      },
+      "image": {
+        "format": "webp",
+        "width": 1400,
+        "height": 689
+      }
+    },
+    {
+      "path": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&w=3840&q=75",
+      "status": 200,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 583,
+      "totalMs": 752,
+      "downloadBytes": 43898,
+      "decodedBytes": 43898,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "content-security-policy": "script-src 'none'; frame-src 'none'; sandbox;",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/laura-martin/photos/reception.webp",
+        "server": "Vercel"
+      },
+      "image": {
+        "format": "webp",
+        "width": 1000,
+        "height": 667
+      }
+    },
+    {
+      "path": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&w=3840&q=75",
+      "status": 200,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 581,
+      "totalMs": 912,
+      "downloadBytes": 132962,
+      "decodedBytes": 132962,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "content-security-policy": "script-src 'none'; frame-src 'none'; sandbox;",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/laura-martin/photos/ceremony-garden.webp",
+        "server": "Vercel"
+      },
+      "image": {
+        "format": "webp",
+        "width": 800,
+        "height": 1200
+      }
+    },
+    {
+      "path": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Frings.webp&w=3840&q=75",
+      "status": 200,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 408,
+      "totalMs": 488,
+      "downloadBytes": 10668,
+      "decodedBytes": 10668,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "content-security-policy": "script-src 'none'; frame-src 'none'; sandbox;",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/laura-martin/photos/rings.webp",
+        "server": "Vercel"
+      },
+      "image": {
+        "format": "webp",
+        "width": 800,
+        "height": 533
+      }
+    },
+    {
+      "path": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fbouquet-white.webp&w=3840&q=75",
+      "status": 200,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 410,
+      "totalMs": 531,
+      "downloadBytes": 26962,
+      "decodedBytes": 26962,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "content-security-policy": "script-src 'none'; frame-src 'none'; sandbox;",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/laura-martin/photos/bouquet-white.webp",
+        "server": "Vercel"
+      },
+      "image": {
+        "format": "webp",
+        "width": 800,
+        "height": 533
+      }
+    },
+    {
+      "path": "/invitations/ana-carlos/backgrounds/paper.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 582,
+      "totalMs": 582,
+      "downloadBytes": 299,
+      "decodedBytes": 299,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/ana-carlos/backgrounds/paper.svg",
+        "server": "Vercel",
+        "etag": "\"bd6fcf4505f6f84c8a2ed78aaca5cb81\""
+      },
+      "image": {
+        "format": "svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "path": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcake.webp&w=3840&q=75",
+      "status": 200,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 407,
+      "totalMs": 589,
+      "downloadBytes": 49788,
+      "decodedBytes": 49788,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "content-security-policy": "script-src 'none'; frame-src 'none'; sandbox;",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/laura-martin/photos/cake.webp",
+        "server": "Vercel"
+      },
+      "image": {
+        "format": "webp",
+        "width": 800,
+        "height": 1200
+      }
+    },
+    {
+      "path": "/_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fceremony.webp&w=3840&q=75",
+      "status": 200,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 564,
+      "totalMs": 744,
+      "downloadBytes": 26962,
+      "decodedBytes": 26962,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "content-security-policy": "script-src 'none'; frame-src 'none'; sandbox;",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/ana-carlos/photos/ceremony.webp",
+        "server": "Vercel"
+      },
+      "image": {
+        "format": "webp",
+        "width": 800,
+        "height": 533
+      }
+    },
+    {
+      "path": "/_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&w=3840&q=75",
+      "status": 200,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 565,
+      "totalMs": 922,
+      "downloadBytes": 43898,
+      "decodedBytes": 43898,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "content-security-policy": "script-src 'none'; frame-src 'none'; sandbox;",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/ana-carlos/photos/main.webp",
+        "server": "Vercel"
+      },
+      "image": {
+        "format": "webp",
+        "width": 1000,
+        "height": 667
+      }
+    },
+    {
+      "path": "/_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fcelebration.webp&w=3840&q=75",
+      "status": 200,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 565,
+      "totalMs": 922,
+      "downloadBytes": 49788,
+      "decodedBytes": 49788,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "content-security-policy": "script-src 'none'; frame-src 'none'; sandbox;",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/ana-carlos/photos/celebration.webp",
+        "server": "Vercel"
+      },
+      "image": {
+        "format": "webp",
+        "width": 800,
+        "height": 1200
+      }
+    },
+    {
+      "path": "/invitations/ana-carlos/ornaments/sprig.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 922,
+      "totalMs": 923,
+      "downloadBytes": 504,
+      "decodedBytes": 504,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/ana-carlos/ornaments/sprig.svg",
+        "server": "Vercel",
+        "etag": "\"bb505dee27ad48a9868b9c9b61505744\""
+      },
+      "image": {
+        "format": "svg",
+        "width": 90,
+        "height": 55
+      }
+    },
+    {
+      "path": "/_next/image?url=%2Finvitations%2Ffixture-generador-local%2Fphotos%2Fmain-01.webp&w=3840&q=75",
+      "status": 200,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 522,
+      "totalMs": 606,
+      "downloadBytes": 16052,
+      "decodedBytes": 16052,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "content-security-policy": "script-src 'none'; frame-src 'none'; sandbox;",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/invitations/fixture-generador-local/photos/main-01.webp",
+        "server": "Vercel"
+      },
+      "image": {
+        "format": "webp",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "path": "/fonts/great-vibes.woff2",
+      "status": 200,
+      "contentType": "font/woff2",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 402,
+      "totalMs": 788,
+      "downloadBytes": 162064,
+      "decodedBytes": 162064,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/fonts/great-vibes.woff2",
+        "server": "Vercel",
+        "etag": "\"2ac3ca590dbb58bf0e7e9939a2db5a85\""
+      }
+    },
+    {
+      "path": "/fonts/cormorant.woff2",
+      "status": 200,
+      "contentType": "font/woff2",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 393,
+      "totalMs": 836,
+      "downloadBytes": 209296,
+      "decodedBytes": 209296,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "HIT",
+        "x-matched-path": "/fonts/cormorant.woff2",
+        "server": "Vercel",
+        "etag": "\"094aaa5708760736c9f4e246f8ede316\""
+      }
+    },
+    {
+      "path": "/fonts/inter.woff2",
+      "status": 200,
+      "contentType": "font/woff2",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "https": true,
+      "ttfbMs": 553,
+      "totalMs": 1047,
+      "downloadBytes": 350568,
+      "decodedBytes": 350568,
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-vercel-cache": "MISS",
+        "x-matched-path": "/fonts/inter.woff2",
+        "server": "Vercel",
+        "etag": "\"79098f5395a4761e66e17cb6cb7fc3e9\""
+      }
+    }
+  ]
+}

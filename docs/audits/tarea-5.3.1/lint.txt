@@ -1,0 +1,4 @@
+
+> maap00-invitations@0.1.0 lint
+> eslint .
+

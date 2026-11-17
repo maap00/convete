@@ -9,6 +9,7 @@ export type InvitationSection =
 export interface Photo { src: string; alt: string; width: number; height: number }
 export interface Venue extends EventLocation { startsAt: string; photo?: Photo }
 export interface WeddingInvitation {
+  mode?: 'demo' | 'commercial';
   id: string;
   slug: string;
   couple: { first: string; second: string };

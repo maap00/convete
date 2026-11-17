@@ -1,0 +1,55 @@
+
+> maap00-invitations@0.1.0 prebuild
+> node --experimental-strip-types scripts/check-public-release.ts
+
+Preflight: demo pública (solo demos incluidas). Origen HTTPS del entorno validado.
+
+> maap00-invitations@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.4.6 (webpack)
+✓ Running next.config.ts took 16ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1516ms
+  Running TypeScript ...
+  Finished TypeScript in 840ms ...
+  Collecting page data using 6 workers ...
+  Generating static pages using 6 workers (0/6) ...
+  Generating static pages using 6 workers (1/6) 
+  Generating static pages using 6 workers (2/6) 
+  Generating static pages using 6 workers (4/6) 
+✓ Generating static pages using 6 workers (6/6) in 352ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├   /invitacion/[slug]
+│ ├ ● /invitacion/laura-martin
+│ └ ● /invitacion/ana-carlos
+└ ○ /solicitar-invitacion
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+
+> maap00-invitations@0.1.0 postbuild
+> node --experimental-strip-types scripts/check-production-artifact.ts
+
+{
+  "filesChecked": 70,
+  "errors": [],
+  "routes": [
+    "/",
+    "/_global-error",
+    "/_not-found",
+    "/invitacion/ana-carlos",
+    "/invitacion/laura-martin",
+    "/solicitar-invitacion"
+  ]
+}

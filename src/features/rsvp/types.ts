@@ -12,6 +12,7 @@ export interface RSVPMessages {
  declineClosing: string;
 }
 export interface RSVPConfig {
+ demoMode?: boolean;
  enabled: boolean;
  phone?: string;
  deadline?: string;

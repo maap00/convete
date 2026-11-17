@@ -8,13 +8,14 @@ import {parseRequestJSON} from './input.ts';
 import {createSlug,validateSlug} from './slug.ts';
 import {requestToInvitation,type ResolvedPhotos} from './transform.ts';
 import {discoverInvitations} from '../invitations/discovery.ts';
+import {privateInvitationRoot} from '../invitations/private-store.ts';
 import {builtInInvitations} from '../invitations/builtins.ts';
 // Reuse the image engine already installed and locked by Next.js.
 const require=createRequire(import.meta.url);
 const sharp:typeof import('sharp')['default']=require(require.resolve('sharp',{paths:[require.resolve('next/package.json')]}));
 export interface GenerateOptions {input:string;assets?:string;slug?:string;dryRun?:boolean;fixture?:boolean;root?:string}
 export interface GenerationReport {status:'dry-run'|'created';slug:string;couple:string;theme:string;sections:string[];photos:number;warnings:string[];files:string[];route:string;elapsedMs:number;timings:{validationMs:number;assetPreparationMs:number;generationTotalMs:number|null}}
-export interface GenerationPlan {invitation:WeddingInvitation;report:GenerationReport;images:{filename:string;data:Buffer}[];target:string;publicRoot:string}
+export interface GenerationPlan {invitation:WeddingInvitation;report:GenerationReport;images:{filename:string;data:Buffer}[];target:string;privateTarget:string;publicRoot:string}
 async function exists(path:string){try{await fs.lstat(path);return true;}catch(error){if((error as NodeJS.ErrnoException).code==='ENOENT')return false;throw error;}}
 async function safeDirectory(path:string){const stat=await fs.lstat(path);if(!stat.isDirectory()||stat.isSymbolicLink())throw new Error('assets: se requiere un directorio real, sin enlace simbólico.');return fs.realpath(path);}
 export async function planGeneration(options:GenerateOptions):Promise<GenerationPlan>{
@@ -25,7 +26,7 @@ export async function planGeneration(options:GenerateOptions):Promise<Generation
  const validationMs=Math.round(performance.now()-started);
  const slug=options.slug===undefined?createSlug(request.couple.first,request.couple.second):validateSlug(options.slug);
  const existing=[...builtInInvitations,...discoverInvitations(publicRoot)];
- if(existing.some(i=>i.slug===slug)||await exists(join(directory,slug)))throw new Error(`slug: «${slug}» ya existe; indica otro con --slug. No se sobrescribió nada.`);
+ if(existing.some(i=>i.slug===slug)||await exists(join(directory,slug))||await exists(join(privateInvitationRoot(publicRoot),slug)))throw new Error(`slug: «${slug}» ya existe; indica otro con --slug. No se sobrescribió nada.`);
  const assetRoot=options.assets?await safeDirectory(resolve(options.assets)):undefined;
  if(!assetRoot&&request.resources.length)throw new Error('assets: faltan los originales; indica --assets con la carpeta del manifiesto.');
  const photos:ResolvedPhotos={},images:GenerationPlan['images']=[],missing:string[]=[];
@@ -45,6 +46,7 @@ export async function planGeneration(options:GenerateOptions):Promise<Generation
  }
  if(missing.length)throw new Error(`resources: faltan archivos originales: ${missing.join(', ')}`);
  const invitation=requestToInvitation(request,slug,photos);
+ if(options.fixture)invitation.mode='demo';
  if(options.fixture)invitation.demoNotice='Invitación de prueba local con datos ficticios y recursos de demostración. No corresponde a un evento real.';
  validateInvitationRegistry([...existing,invitation]);
  for(const asset of Object.values(resolveTheme(invitation.theme,invitation.personalization).assets)){
@@ -53,29 +55,35 @@ export async function planGeneration(options:GenerateOptions):Promise<Generation
  }
  const warnings=['Indexación desactivada (noindex); no es control de acceso.','Open Graph reutiliza la fotografía principal; no se creó una composición social ni se comprobó su recorte.','Reconstruye la aplicación o reinicia desarrollo para reconocer la invitación. No se ha publicado en Internet.'];
  if(!request.preferences.sections.welcome)warnings.push('La foto principal se conserva y se usa en SEO; la sección de historia donde aparece está desactivada.');
+ if(options.fixture)warnings.push('Fixture exclusivamente local: sus gráficos deben archivarse antes de construir una demo pública.');
  if(request.rsvp.enabled)warnings.push('RSVP conserva el receptor proporcionado. Verifica su autorización antes de compartir la invitación.');
  if(request.celebration.colors)warnings.push('Los colores sugeridos se muestran como texto; no se interpretan como códigos de paleta.');
- return {invitation,images,target:join(directory,slug),publicRoot,report:{status:options.dryRun?'dry-run':'created',slug,couple:`${request.couple.first} y ${request.couple.second}`,theme:request.preferences.theme,sections:invitation.sections.filter(s=>s.enabled).map(s=>s.id),photos:images.length,warnings,files:['invitation.json','preparation-report.json',...images.map(i=>`photos/${i.filename}`)].map(f=>`public/invitations/${slug}/${f}`),route:`/invitacion/${slug}`,elapsedMs:Math.round(performance.now()-started),timings:{validationMs,assetPreparationMs:Math.round(performance.now()-started)-validationMs,generationTotalMs:null}}};
+ return {invitation,images,target:join(directory,slug),privateTarget:join(privateInvitationRoot(publicRoot),slug),publicRoot,report:{status:options.dryRun?'dry-run':'created',slug,couple:`${request.couple.first} y ${request.couple.second}`,theme:request.preferences.theme,sections:invitation.sections.filter(s=>s.enabled).map(s=>s.id),photos:images.length,warnings,files:[`data/invitations/${slug}/invitation.json`,`data/invitations/${slug}/preparation-report.json`,...images.map(i=>`public/invitations/${slug}/photos/${i.filename}`)],route:`/invitacion/${slug}`,elapsedMs:Math.round(performance.now()-started),timings:{validationMs,assetPreparationMs:Math.round(performance.now()-started)-validationMs,generationTotalMs:null}}};
 }
 /** Injectable write primitives let integration tests exercise rollback after partial staging. */
 export async function generateInvitation(options:GenerateOptions,io:Pick<typeof fs,'writeFile'|'rename'>=fs):Promise<GenerationReport>{
  const operationStarted=performance.now();const plan=await planGeneration(options);if(options.dryRun)return plan.report;
- const parent=join(plan.publicRoot,'invitations'),lock=join(parent,`.${plan.report.slug}.lock`);
- let locked=false,published=false,stage:string|undefined;
+ const parent=join(plan.publicRoot,'invitations'),privateParent=privateInvitationRoot(plan.publicRoot);
+ for(const directory of [resolve(privateParent,'..'),privateParent]){if(!await exists(directory))await fs.mkdir(directory,{mode:0o700});await safeDirectory(directory);}
+ const lock=join(privateParent,`.${plan.report.slug}.lock`);
+ let locked=false,published=false,publicPublished=false,stage:string|undefined,privateStage:string|undefined;
  try{
   await fs.mkdir(lock);locked=true;
-  if(await exists(plan.target))throw new Error('slug: colisión antes de publicar.');
-  stage=await fs.mkdtemp(join(parent,'.stage-'));await fs.mkdir(join(stage,'photos'));
+  if(await exists(plan.target)||await exists(plan.privateTarget))throw new Error('slug: colisión antes de publicar.');
+  stage=await fs.mkdtemp(join(parent,'.stage-'));privateStage=await fs.mkdtemp(join(privateParent,'.stage-'));await fs.mkdir(join(stage,'photos'));
   for(const image of plan.images)await io.writeFile(join(stage,'photos',image.filename),image.data,{flag:'wx'});
-  await io.writeFile(join(stage,'invitation.json'),JSON.stringify(plan.invitation,null,2)+'\n',{flag:'wx'});
-  await io.writeFile(join(stage,'preparation-report.json'),JSON.stringify(plan.report,null,2)+'\n',{flag:'wx'});
-  if(await exists(plan.target))throw new Error('slug: colisión antes de publicar.');
-  await io.rename(stage,plan.target);stage=undefined;published=true;return {...plan.report,timings:{...plan.report.timings,generationTotalMs:Math.round(performance.now()-operationStarted)}};
- }catch(error){throw new Error(`Generación cancelada: ${error instanceof Error?error.message:'fallo de escritura'}. No se publicó una invitación parcial; los archivos preexistentes se conservan.`,{cause:error});}
+  await io.writeFile(join(privateStage,'invitation.json'),JSON.stringify(plan.invitation,null,2)+'\n',{flag:'wx'});
+  await io.writeFile(join(privateStage,'preparation-report.json'),JSON.stringify(plan.report,null,2)+'\n',{flag:'wx'});
+  if(await exists(plan.target)||await exists(plan.privateTarget))throw new Error('slug: colisión antes de publicar.');
+  await io.rename(stage,plan.target);stage=undefined;publicPublished=true;
+  // The private configuration is the registration/commit point, after all photos exist.
+  await io.rename(privateStage,plan.privateTarget);privateStage=undefined;published=true;
+  return {...plan.report,timings:{...plan.report.timings,generationTotalMs:Math.round(performance.now()-operationStarted)}};
+ }catch(error){throw new Error(`Generación cancelada: ${error instanceof Error?error.message:'fallo de escritura'}. No se registró una invitación parcial; los archivos preexistentes se conservan.`,{cause:error});}
  finally{
   const pending:string[]=[];
-  if(stage)try{await fs.rm(stage,{recursive:true,force:true});}catch{pending.push(stage);}
+  for(const path of [stage,privateStage,...(publicPublished&&!published?[plan.target]:[])])if(path)try{await fs.rm(path,{recursive:true,force:true});}catch{pending.push(path);}
   if(locked)try{await fs.rmdir(lock);}catch{pending.push(lock);}
-  if(pending.length)throw new Error(`${published?'La invitación completa fue creada.':'No se publicó una invitación.'} Limpieza pendiente, conserva y revisa estas rutas: ${pending.join(', ')}`);
+  if(pending.length)throw new Error(`${published?'La invitación completa fue creada.':'No se registró una invitación.'} Limpieza pendiente: ${pending.join(', ')}`);
  }
 }

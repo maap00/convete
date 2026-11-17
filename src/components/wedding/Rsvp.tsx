@@ -20,11 +20,11 @@ export function Rsvp({ rsvp, eventLabel }: { rsvp: RSVPConfig; eventLabel: strin
  useEffect(()=>{
   const update = () => setNow(new Date());
   update();
-  if (!rsvp.enabled || !rsvp.deadline) return;
+  if (rsvp.demoMode || !rsvp.enabled || !rsvp.deadline) return;
   const timer = window.setInterval(update,1000);
   window.addEventListener('focus',update);
   return ()=>{window.clearInterval(timer);window.removeEventListener('focus',update);};
- },[rsvp.enabled,rsvp.deadline]);
+ },[rsvp.enabled,rsvp.deadline,rsvp.demoMode]);
  const availability = now ? getRSVPAvailability(rsvp,now) : null;
  const ready = availability === 'ready';
  const max = rsvp.maxCompanions ?? DEFAULT_MAX_COMPANIONS;

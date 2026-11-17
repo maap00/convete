@@ -1,0 +1,12 @@
+{
+  "publicURL": "https://convete.vercel.app/solicitar-invitacion",
+  "reviewedAt": "2026-11-17T18:37:28.920Z",
+  "sixStepsCompleted": true,
+  "previousNavigation": true,
+  "validationErrorsObserved": true,
+  "photoPreview": true,
+  "jsonDownloadValidated": true,
+  "onlyFictitiousData": true,
+  "networkCaptureAvailable": false,
+  "externalTransmissionConclusion": "pendiente: no hay captura dinámica; textos de UI y pruebas estáticas no la sustituyen"
+}

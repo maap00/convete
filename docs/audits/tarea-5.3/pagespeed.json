@@ -1,0 +1,8 @@
+{
+  "available": false,
+  "error": {
+    "code": 429,
+    "status": "RESOURCE_EXHAUSTED",
+    "message": "Cuota de PageSpeed Insights agotada (HTTP 429); no se obtuvieron métricas."
+  }
+}

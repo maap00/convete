@@ -1,0 +1,5 @@
+PASS fixture-531-validation: registro privado, ruta, motor, secciones, recursos y modo demo sin acción real.
+PASS /invitacion/laura-martin: SEO, tema, contenido y secciones
+PASS /invitacion/ana-carlos: SEO, tema, contenido y secciones
+PASS slug inexistente: 404
+PASS /solicitar-invitacion: formulario local, SEO y privacidad

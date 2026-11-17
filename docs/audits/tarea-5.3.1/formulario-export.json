@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "056385af-8d0b-4cef-8f8d-36de5c4e823a",
+  "createdAt": "2026-11-17T19:42:50.620Z",
+  "commercial": {
+    "contact": {
+      "email": "pareja@example.com",
+      "whatsapp": "12025550123"
+    }
+  },
+  "couple": {
+    "first": "Alma Ficticia",
+    "second": "Bruno Ejemplo"
+  },
+  "event": {
+    "date": "2027-12-18",
+    "timeZone": "America/Caracas"
+  },
+  "venues": {
+    "sameLocation": true,
+    "ceremony": {
+      "location": {
+        "name": "Jardín ficticio",
+        "address": "Calle de ejemplo",
+        "city": "Caracas",
+        "country": "Venezuela"
+      },
+      "startsAt": "2027-12-18T20:00:00.000Z"
+    },
+    "reception": {
+      "location": {
+        "name": "Jardín ficticio",
+        "address": "Calle de ejemplo",
+        "city": "Caracas",
+        "country": "Venezuela"
+      },
+      "startsAt": "2027-12-18T22:00:00.000Z"
+    }
+  },
+  "content": {
+    "cover": "Una celebración ficticia",
+    "welcome": "Bienvenidos a esta prueba local",
+    "closing": "Gracias por acompañarnos en este nuevo comienzo."
+  },
+  "resources": [
+    {
+      "id": "a3a0c794-44b9-4ffc-9467-8f7bd7954d2c",
+      "filename": "social.jpg",
+      "mimeType": "image/jpeg",
+      "size": 39048,
+      "destination": "main"
+    }
+  ],
+  "celebration": {
+    "dressCode": "Formal ficticio",
+    "itinerary": []
+  },
+  "preferences": {
+    "theme": "botanical",
+    "palette": "olive",
+    "sections": {
+      "countdown": true,
+      "welcome": true,
+      "venues": true,
+      "gallery": false,
+      "itinerary": false,
+      "dressCode": true,
+      "gifts": false,
+      "rsvp": false
+    }
+  },
+  "rsvp": {
+    "enabled": false
+  },
+  "completeness": {
+    "dataValidated": true,
+    "originalFilesDelivery": "pending",
+    "requiredResourceIds": [
+      "a3a0c794-44b9-4ffc-9467-8f7bd7954d2c"
+    ],
+    "note": "El JSON contiene un manifiesto, no fotografías. Entregar todos los archivos originales indicados junto con este JSON. Descargar no equivale a enviar la solicitud."
+  }
+}

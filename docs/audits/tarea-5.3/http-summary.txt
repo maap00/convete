@@ -1,0 +1,327 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "ttfbMs": 414
+  },
+  {
+    "path": "/invitacion/laura-martin",
+    "status": 200,
+    "ttfbMs": 491
+  },
+  {
+    "path": "/invitacion/ana-carlos",
+    "status": 200,
+    "ttfbMs": 392
+  },
+  {
+    "path": "/solicitar-invitacion",
+    "status": 200,
+    "ttfbMs": 392
+  },
+  {
+    "path": "/invitacion/no-existe-auditoria-5-3",
+    "status": 404,
+    "ttfbMs": 620
+  },
+  {
+    "path": "/invitacion/fixture-generador-local",
+    "status": 200,
+    "ttfbMs": 386
+  },
+  {
+    "path": "/invitations/fixture-generador-local/invitation.json",
+    "status": 200,
+    "ttfbMs": 387
+  },
+  {
+    "path": "/invitations/fixture-generador-local/preparation-report.json",
+    "status": 200,
+    "ttfbMs": 515
+  },
+  {
+    "path": "/docs/tarea-4.3.md",
+    "status": 404,
+    "ttfbMs": 503
+  },
+  {
+    "path": "/docs/examples/solicitud-invitacion-recorrido-4.1.1.json",
+    "status": 404,
+    "ttfbMs": 377
+  },
+  {
+    "path": "/invitations/laura-martin/README.md",
+    "status": 200,
+    "ttfbMs": 479
+  },
+  {
+    "path": "/invitations/ana-carlos/README.md",
+    "status": 200,
+    "ttfbMs": 571
+  },
+  {
+    "path": "/.convete/approvals/laura-martin",
+    "status": 404,
+    "ttfbMs": 398
+  },
+  {
+    "path": "/.convete/approvals/laura-martin/",
+    "status": 308,
+    "ttfbMs": 464
+  },
+  {
+    "path": "/package.json",
+    "status": 404,
+    "ttfbMs": 382
+  },
+  {
+    "path": "/.env",
+    "status": 404,
+    "ttfbMs": 380
+  },
+  {
+    "path": "/robots.txt",
+    "status": 404,
+    "ttfbMs": 436
+  },
+  {
+    "path": "/_next/static/immutable/chunks/1vcso2l8v1y68.js",
+    "status": 200,
+    "ttfbMs": 390
+  },
+  {
+    "path": "/invitations/laura-martin/social.jpg",
+    "status": 200,
+    "ttfbMs": 454,
+    "image": {
+      "format": "jpeg",
+      "width": 1200,
+      "height": 630
+    }
+  },
+  {
+    "path": "/invitations/ana-carlos/social.jpg",
+    "status": 200,
+    "ttfbMs": 472,
+    "image": {
+      "format": "jpeg",
+      "width": 1200,
+      "height": 630
+    }
+  },
+  {
+    "path": "/_next/static/immutable/chunks/0b6yocxw23s6h.js",
+    "status": 200,
+    "ttfbMs": 480
+  },
+  {
+    "path": "/_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js",
+    "status": 200,
+    "ttfbMs": 387
+  },
+  {
+    "path": "/_next/static/immutable/chunks/3sav3yefleyvp.js",
+    "status": 200,
+    "ttfbMs": 401
+  },
+  {
+    "path": "/_next/static/immutable/chunks/2p53kkb69hb3l.js",
+    "status": 200,
+    "ttfbMs": 409
+  },
+  {
+    "path": "/_next/static/immutable/chunks/2smolq_k84s0h.js",
+    "status": 200,
+    "ttfbMs": 412
+  },
+  {
+    "path": "/_next/static/immutable/chunks/33kha48-5t2zm.js",
+    "status": 200,
+    "ttfbMs": 380
+  },
+  {
+    "path": "/_next/static/immutable/chunks/2192tva0r8ef2.js",
+    "status": 200,
+    "ttfbMs": 380
+  },
+  {
+    "path": "/_next/static/immutable/chunks/08nfvz6yly90f.css",
+    "status": 200,
+    "ttfbMs": 448
+  },
+  {
+    "path": "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+    "status": 200,
+    "ttfbMs": 496
+  },
+  {
+    "path": "/_next/static/immutable/chunks/2nsj06r-8q2om.js",
+    "status": 200,
+    "ttfbMs": 524
+  },
+  {
+    "path": "/_next/static/immutable/chunks/2cq7mz65-tagt.js",
+    "status": 200,
+    "ttfbMs": 549
+  },
+  {
+    "path": "/_next/static/immutable/chunks/449mgb955ovb6.css",
+    "status": 200,
+    "ttfbMs": 525
+  },
+  {
+    "path": "/_next/image?url=%2Fthemes%2Fbotanical%2Ffloral-corner.webp&w=3840&q=75",
+    "status": 200,
+    "ttfbMs": 524,
+    "image": {
+      "format": "webp",
+      "width": 800,
+      "height": 800
+    }
+  },
+  {
+    "path": "/themes/botanical/sprig.svg",
+    "status": 200,
+    "ttfbMs": 543,
+    "image": {
+      "format": "svg",
+      "width": 90,
+      "height": 55
+    }
+  },
+  {
+    "path": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcouple.webp&w=3840&q=75",
+    "status": 200,
+    "ttfbMs": 602,
+    "image": {
+      "format": "webp",
+      "width": 1400,
+      "height": 689
+    }
+  },
+  {
+    "path": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Freception.webp&w=3840&q=75",
+    "status": 200,
+    "ttfbMs": 583,
+    "image": {
+      "format": "webp",
+      "width": 1000,
+      "height": 667
+    }
+  },
+  {
+    "path": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fceremony-garden.webp&w=3840&q=75",
+    "status": 200,
+    "ttfbMs": 581,
+    "image": {
+      "format": "webp",
+      "width": 800,
+      "height": 1200
+    }
+  },
+  {
+    "path": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Frings.webp&w=3840&q=75",
+    "status": 200,
+    "ttfbMs": 408,
+    "image": {
+      "format": "webp",
+      "width": 800,
+      "height": 533
+    }
+  },
+  {
+    "path": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fbouquet-white.webp&w=3840&q=75",
+    "status": 200,
+    "ttfbMs": 410,
+    "image": {
+      "format": "webp",
+      "width": 800,
+      "height": 533
+    }
+  },
+  {
+    "path": "/invitations/ana-carlos/backgrounds/paper.svg",
+    "status": 200,
+    "ttfbMs": 582,
+    "image": {
+      "format": "svg",
+      "width": 100,
+      "height": 100
+    }
+  },
+  {
+    "path": "/_next/image?url=%2Finvitations%2Flaura-martin%2Fphotos%2Fcake.webp&w=3840&q=75",
+    "status": 200,
+    "ttfbMs": 407,
+    "image": {
+      "format": "webp",
+      "width": 800,
+      "height": 1200
+    }
+  },
+  {
+    "path": "/_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fceremony.webp&w=3840&q=75",
+    "status": 200,
+    "ttfbMs": 564,
+    "image": {
+      "format": "webp",
+      "width": 800,
+      "height": 533
+    }
+  },
+  {
+    "path": "/_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fmain.webp&w=3840&q=75",
+    "status": 200,
+    "ttfbMs": 565,
+    "image": {
+      "format": "webp",
+      "width": 1000,
+      "height": 667
+    }
+  },
+  {
+    "path": "/_next/image?url=%2Finvitations%2Fana-carlos%2Fphotos%2Fcelebration.webp&w=3840&q=75",
+    "status": 200,
+    "ttfbMs": 565,
+    "image": {
+      "format": "webp",
+      "width": 800,
+      "height": 1200
+    }
+  },
+  {
+    "path": "/invitations/ana-carlos/ornaments/sprig.svg",
+    "status": 200,
+    "ttfbMs": 922,
+    "image": {
+      "format": "svg",
+      "width": 90,
+      "height": 55
+    }
+  },
+  {
+    "path": "/_next/image?url=%2Finvitations%2Ffixture-generador-local%2Fphotos%2Fmain-01.webp&w=3840&q=75",
+    "status": 200,
+    "ttfbMs": 522,
+    "image": {
+      "format": "webp",
+      "width": 1200,
+      "height": 630
+    }
+  },
+  {
+    "path": "/fonts/great-vibes.woff2",
+    "status": 200,
+    "ttfbMs": 402
+  },
+  {
+    "path": "/fonts/cormorant.woff2",
+    "status": 200,
+    "ttfbMs": 393
+  },
+  {
+    "path": "/fonts/inter.woff2",
+    "status": 200,
+    "ttfbMs": 553
+  }
+]

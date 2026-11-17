@@ -105,7 +105,7 @@ test('real generation creates independent config, optimized photos and report, d
  assert.equal(JSON.parse(await fs.readFile(join(options.root,report.files[1]),'utf8')).status,'created');
 });
 test('repeat generation, explicit directory collisions and built-in demo slugs never overwrite',async t=>{
- const options=await setup(t);await generateInvitation(options);const path=join(options.root,'public/invitations',options.slug,'invitation.json'),before=await fs.readFile(path,'utf8');
+ const options=await setup(t);await generateInvitation(options);const path=join(options.root,'data/invitations',options.slug,'invitation.json'),before=await fs.readFile(path,'utf8');
  await assert.rejects(generateInvitation(options),/ya existe/);assert.equal(await fs.readFile(path,'utf8'),before);
  await assert.rejects(generateInvitation({...options,slug:'laura-martin'}),/ya existe/);
  await fs.mkdir(join(options.root,'public/invitations/reserved-pair'));await assert.rejects(generateInvitation({...options,slug:'reserved-pair'}),/ya existe/);
@@ -120,7 +120,7 @@ test('final rename failure and concurrent creation leave no partial directories'
  const results=await Promise.allSettled([generateInvitation(options),generateInvitation(options)]);assert.equal(results.filter(v=>v.status==='fulfilled').length,1);assert.deepEqual(await fs.readdir(join(options.root,'public/invitations')),[options.slug]);
 });
 test('discovery rejects mismatched slugs and symbolic configurations',async t=>{
- const options=await setup(t);await generateInvitation(options);const file=join(options.root,'public/invitations',options.slug,'invitation.json');const r=JSON.parse(await fs.readFile(file,'utf8'));r.slug='other-pair';await fs.writeFile(file,JSON.stringify(r));assert.throws(()=>discoverInvitations(join(options.root,'public')),/slug distinto/);
+ const options=await setup(t);await generateInvitation(options);const file=join(options.root,'data/invitations',options.slug,'invitation.json');const r=JSON.parse(await fs.readFile(file,'utf8'));r.slug='other-pair';await fs.writeFile(file,JSON.stringify(r));assert.throws(()=>discoverInvitations(join(options.root,'public')),/slug distinto/);
  await fs.rm(file);await fs.symlink(join(options.root,'request.json'),file);assert.throws(()=>discoverInvitations(join(options.root,'public')),/configuración insegura/);
 });
 test('generated metadata uses the actual couple, local main image and no invented canonical',()=>{

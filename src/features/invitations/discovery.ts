@@ -1,10 +1,11 @@
 import {existsSync,lstatSync,readdirSync,readFileSync,realpathSync} from 'node:fs';
 import {resolve,sep} from 'node:path';
+import {privateInvitationRoot} from './private-store.ts';
 import {isInvitationSlug,validateInvitation} from './validation.ts';
 import type {WeddingInvitation} from './types';
 /** Server/build-only discovery. Fixed filename, no executable imports or browser filesystem. */
 export function discoverInvitations(publicRoot=resolve('public')):WeddingInvitation[] {
- const directory=resolve(publicRoot,'invitations');if(!existsSync(directory))return [];
+ const directory=privateInvitationRoot(publicRoot);const parent=resolve(directory,'..');if(existsSync(parent)&&lstatSync(parent).isSymbolicLink())throw new Error('registry: data no puede ser simbólico.');if(!existsSync(directory))return [];
  if(lstatSync(directory).isSymbolicLink())throw new Error('registry: invitations no puede ser un enlace simbólico.');
  const root=realpathSync(directory),result:WeddingInvitation[]=[];
  for(const entry of readdirSync(root,{withFileTypes:true}).sort((a,b)=>a.name.localeCompare(b.name))){

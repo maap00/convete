@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-11-17T18:48:50.375Z",
+  "results": [
+    {
+      "slug": "laura-martin",
+      "path": "/invitations/laura-martin/social.jpg",
+      "publicSHA256": "1c58efab399700bf3da79ecfa3660e44bba1b14a707139b5d4f8ef0ec515aab5",
+      "localSHA256": "1c58efab399700bf3da79ecfa3660e44bba1b14a707139b5d4f8ef0ec515aab5",
+      "sameBytes": true
+    },
+    {
+      "slug": "ana-carlos",
+      "path": "/invitations/ana-carlos/social.jpg",
+      "publicSHA256": "88787ca0e77ff80e280a0b1504878e36fde65388c940c6da07c2077d08b95300",
+      "localSHA256": "88787ca0e77ff80e280a0b1504878e36fde65388c940c6da07c2077d08b95300",
+      "sameBytes": true
+    }
+  ]
+}

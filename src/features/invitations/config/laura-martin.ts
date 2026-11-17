@@ -1,7 +1,7 @@
 import { weddingAssets } from "./assets.ts";
 import type { WeddingInvitation } from "../types";
 export const lauraMartin = {
-  id: "demo-laura-martin", slug: "laura-martin",
+  mode:'demo', id: "demo-laura-martin", slug: "laura-martin",
   couple: { first: "Laura", second: "Martín" },
   event: { startsAt: "2027-04-17T16:00:00-04:00", timeZone: "America/Caracas" },
   messages: { title: "Jardín Eterno", welcome: "Nos ilusiona compartir este día contigo.", closing: "Gracias por acompañarnos en esta nueva etapa.", romantic: "Te invitamos a compartir con nosotros este día tan especial", story: "Un camino que comenzó con una gran amistad, se convirtió en amor y hoy nos lleva a este nuevo capítulo.", thankYou: "Por ser parte de nuestra historia y acompañarnos en este día inolvidable." },

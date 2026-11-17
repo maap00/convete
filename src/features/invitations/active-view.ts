@@ -1,3 +1,4 @@
+import {effectiveRsvp} from './demo.ts';
 import type {WeddingInvitation} from './types';
 import {getVenueVisibility} from './sections.ts';
 /** Validation view only: never mutates the stored configuration or the rendered design. */
@@ -12,6 +13,7 @@ export function activeInvitation(value:WeddingInvitation):WeddingInvitation {
  if(!enabled('gifts'))d.gifts={message:'Sección desactivada'};
  if(!enabled('rsvp'))d.rsvp={enabled:false,message:'Confirmación desactivada'};
  else if(d.rsvp.enabled===false)d.rsvp={...d.rsvp,phone:undefined,deadline:undefined,maxCompanions:undefined,message:d.rsvp.message===''||d.rsvp.message===undefined?'Confirmación desactivada':d.rsvp.message};
+ d.rsvp=effectiveRsvp(d);
  const visibility=getVenueVisibility(d);
  for(const kind of ['ceremony','reception'] as const)if(!visibility[kind])d[kind]={name:'Sección desactivada',startsAt:d.event.startsAt};
  return d;

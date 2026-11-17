@@ -1,0 +1,33 @@
+{
+  "status": "created",
+  "slug": "fixture-531-validation",
+  "couple": "Alma Ficticia de los Jardines del Sol y Bruno Ejemplo",
+  "theme": "botanical",
+  "sections": [
+    "countdown",
+    "welcome",
+    "venues",
+    "itinerary",
+    "rsvp"
+  ],
+  "photos": 1,
+  "warnings": [
+    "Indexación desactivada (noindex); no es control de acceso.",
+    "Open Graph reutiliza la fotografía principal; no se creó una composición social ni se comprobó su recorte.",
+    "Reconstruye la aplicación o reinicia desarrollo para reconocer la invitación. No se ha publicado en Internet.",
+    "Fixture exclusivamente local: sus gráficos deben archivarse antes de construir una demo pública.",
+    "RSVP conserva el receptor proporcionado. Verifica su autorización antes de compartir la invitación."
+  ],
+  "files": [
+    "data/invitations/fixture-531-validation/invitation.json",
+    "data/invitations/fixture-531-validation/preparation-report.json",
+    "public/invitations/fixture-531-validation/photos/main-01.webp"
+  ],
+  "route": "/invitacion/fixture-531-validation",
+  "elapsedMs": 58,
+  "timings": {
+    "validationMs": 16,
+    "assetPreparationMs": 42,
+    "generationTotalMs": null
+  }
+}

@@ -93,7 +93,7 @@ test('invitations keep independent location and gift configurations',()=>{
  assert.equal(ana.ceremony.coordinates,undefined);assert.equal(ana.gifts.url,undefined);assert.equal(getInvitation('laura-martin')!.gifts.url,undefined);
 });
 test('approved Laura configuration is preserved and Ana stays fictitious',()=>{
- assert.deepEqual(getInvitation('laura-martin'),JSON.parse(readFileSync(new URL('./fixtures/laura-martin.json',import.meta.url),'utf8')));
+ const {mode,...approvedContent}=getInvitation('laura-martin')!;assert.equal(mode,'demo');assert.deepEqual(approvedContent,JSON.parse(readFileSync(new URL('./fixtures/laura-martin.json',import.meta.url),'utf8')));
  assert.match(getInvitation('ana-carlos')!.demoNotice!,/fictici/);
 });
 test('existing config validation reports invalid navigation and gift settings by field',()=>{

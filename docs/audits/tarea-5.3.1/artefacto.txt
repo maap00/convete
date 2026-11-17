@@ -1,0 +1,16 @@
+
+> maap00-invitations@0.1.0 test:artifact
+> node --experimental-strip-types scripts/check-production-artifact.ts
+
+{
+  "filesChecked": 70,
+  "errors": [],
+  "routes": [
+    "/",
+    "/_global-error",
+    "/_not-found",
+    "/invitacion/ana-carlos",
+    "/invitacion/laura-martin",
+    "/solicitar-invitacion"
+  ]
+}

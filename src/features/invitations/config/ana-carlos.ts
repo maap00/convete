@@ -1,7 +1,7 @@
 import type { WeddingInvitation } from '../types';
 const mainPhoto = { src: '/invitations/ana-carlos/photos/main.webp', alt: 'Mesa de boda con flores, fotografía ilustrativa de la demo.', width: 1000, height: 667 };
 export const anaCarlos = {
- id: 'demo-ana-carlos', slug: 'ana-carlos', couple: { first: 'Ana', second: 'Carlos' },
+ mode:'demo', id: 'demo-ana-carlos', slug: 'ana-carlos', couple: { first: 'Ana', second: 'Carlos' },
  event: { startsAt: '2027-09-25T17:30:00-04:00', timeZone: 'America/Caracas' },
  messages: {
   title: 'Jardín Eterno · Una tarde entre flores', welcome: 'Queremos celebrar contigo todo lo que está por venir.',

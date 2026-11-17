@@ -26,7 +26,7 @@ const hash=(data:Buffer|string)=>createHash('sha256').update(data).digest('hex')
 export interface AuditOptions {root?:string;now?:Date;origin?:string}
 export async function readInvitation(slug:string,root=process.cwd()):Promise<WeddingInvitation>{
  validateSlug(slug);const builtin=builtInInvitations.find(i=>i.slug===slug);if(builtin)return structuredClone(builtin);
- const file=await workspacePath(root,`public/invitations/${slug}/invitation.json`),stat=await fs.stat(file);
+ const file=await workspacePath(root,`data/invitations/${slug}/invitation.json`),stat=await fs.stat(file);
  if(stat.size>1024*1024)throw new Error('configuración: supera 1 MiB.');
  let value:WeddingInvitation;try{value=JSON.parse(await fs.readFile(file,'utf8')) as WeddingInvitation;}catch{throw new Error('configuración: JSON inválido.');}
  if(!value||value.slug!==slug)throw new Error('configuración: el slug no coincide con su directorio.');return value;
@@ -56,7 +56,7 @@ export async function auditExisting(slug:string,options:AuditOptions={}):Promise
  }
  if(invitation)try{
   validateInvitation(invitation,{activeOnly:true});active=activeInvitation(invitation);
-  report.id=invitation.id;report.couple=`${invitation.couple.first} y ${invitation.couple.second}`;report.theme=invitation.theme;report.sections=invitation.sections.filter(s=>s.enabled).map(s=>s.id);report.fixture=Boolean(invitation.demoNotice);
+  report.id=invitation.id;report.couple=`${invitation.couple.first} y ${invitation.couple.second}`;report.theme=invitation.theme;report.sections=invitation.sections.filter(s=>s.enabled).map(s=>s.id);report.fixture=Boolean(invitation.mode==='demo'||invitation.demoNotice);
  }catch(error){add('ERROR','CONFIG_INVALID','configuration',error instanceof Error?error.message:'Configuración inválida.');}
  const fingerprintParts:Record<string,unknown>={rulesVersion:1,configuration:invitation??null,origin:options.origin??null,assets:{},renderDependencies:{}};
  if(active&&invitation){
@@ -120,7 +120,7 @@ export async function auditExisting(slug:string,options:AuditOptions={}):Promise
   };
   try{for(const dir of dependencyRoots)await walk(dir);for(const path of dependencies.sort())try{const file=await workspacePath(root,path);(fingerprintParts.renderDependencies as Record<string,string>)[path]=hash(await fs.readFile(file));}catch(error){if((error as NodeJS.ErrnoException).code!=='ENOENT')throw error;(fingerprintParts.renderDependencies as Record<string,string>)[path]='absent';}}
   catch{add('ERROR','RENDER_DEPENDENCY','render','No se pudieron leer con seguridad los recursos compartidos de renderizado.');}
-  try{const file=await workspacePath(root,`public/invitations/${slug}/preparation-report.json`);const s=await fs.stat(file);if(s.size<1024*1024){const p=JSON.parse(await fs.readFile(file,'utf8'));if(Number.isFinite(p.elapsedMs)&&p.elapsedMs>=0)report.timings.generationPreparationMs=p.elapsedMs;}}catch{/* Optional historical timing, never inferred. */}
+  try{const file=await workspacePath(root,`data/invitations/${slug}/preparation-report.json`);const s=await fs.stat(file);if(s.size<1024*1024){const p=JSON.parse(await fs.readFile(file,'utf8'));if(Number.isFinite(p.elapsedMs)&&p.elapsedMs>=0)report.timings.generationPreparationMs=p.elapsedMs;}}catch{/* Optional historical timing, never inferred. */}
  }
  if(invitation&&!report.findings.some(f=>f.level==='ERROR'))report.fingerprint=hash(canonical(fingerprintParts));
  report.technical=report.findings.some(f=>f.level==='ERROR')?'blocked':'passed';report.readyForReview=report.technical==='passed';

@@ -18,7 +18,10 @@
     "invitation:check": "node --experimental-strip-types scripts/invitation-quality.ts check",
     "invitation:approve": "node --experimental-strip-types scripts/invitation-quality.ts approve",
     "invitation:handoff": "node --experimental-strip-types scripts/invitation-quality.ts handoff",
-    "test:commercial": "node --experimental-strip-types scripts/verify-commercial-flow.ts"
+    "test:commercial": "node --experimental-strip-types scripts/verify-commercial-flow.ts",
+    "prebuild": "node --experimental-strip-types scripts/check-public-release.ts",
+    "postbuild": "node --experimental-strip-types scripts/check-production-artifact.ts",
+    "test:artifact": "node --experimental-strip-types scripts/check-production-artifact.ts"
   },
   "dependencies": {
     "next": "16.4.6",

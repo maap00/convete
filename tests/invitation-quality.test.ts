@@ -22,7 +22,7 @@ async function setup(t:test.TestContext,fixture=false){
  await fs.copyFile(join(project,'public/invitations/laura-martin/social.jpg'),join(root,'assets/social.jpg'));
  const input=join(root,'request.json');await fs.copyFile(join(project,'docs/examples/solicitud-invitacion-recorrido-4.1.1.json'),input);
  const generation=await generateInvitation({root,input,assets:join(root,'assets'),slug,fixture});
- const config=join(root,'public/invitations',slug,'invitation.json');
+ const config=join(root,'data/invitations',slug,'invitation.json');
  const options={root,now};
  const update=async(change:(v:WeddingInvitation)=>void)=>{const v=await readInvitation(slug,root);change(v);await fs.writeFile(config,JSON.stringify(v,null,2));};
  return {root,input,config,options,update,generation};
@@ -134,7 +134,7 @@ test('report outputs are explicit, refuse overwrites, public paths, traversal an
 });
 test('auditing refuses unsafe slugs and symlinked invitation resources without changing files',async t=>{
  const s=await setup(t);for(const value of ['../escape','foo/bar','admin'])await assert.rejects(auditExisting(value,s.options));
- const image=join(s.root,'public/invitations',slug,'photos/main-01.webp');await fs.rm(image);await fs.symlink(join(project,'public/invitations/fixture-generador-local/photos/main-01.webp'),image);const r=await auditExisting(slug,s.options);assert.ok(error(r,'RESOURCE_INVALID'));
+ const image=join(s.root,'public/invitations',slug,'photos/main-01.webp');await fs.rm(image);await fs.symlink(join(project,'tests/fixtures/legacy-generated/fixture-generador-local/photos/main-01.webp'),image);const r=await auditExisting(slug,s.options);assert.ok(error(r,'RESOURCE_INVALID'));
 });
 test('CLI supports readonly JSON/checklist/handoff, exit codes and explicit report output',async t=>{
  const s=await setup(t),cli=resolve('scripts/invitation-quality.ts'),run=(mode:string,args:string[])=>spawnSync(process.execPath,['--experimental-strip-types',cli,mode,...args],{cwd:s.root,encoding:'utf8'}),before=await tree(s.root);

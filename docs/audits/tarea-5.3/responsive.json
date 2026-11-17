@@ -1,0 +1,245 @@
+{
+  "note": "Viewports CSS emulados en Chromium integrado; no dispositivos físicos.",
+  "results": [
+    {
+      "label": "laura",
+      "requested": 320,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "label": "laura",
+      "requested": 360,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 360,
+      "width": 360
+    },
+    {
+      "label": "laura",
+      "requested": 375,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "label": "laura",
+      "requested": 390,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "label": "laura",
+      "requested": 414,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 414,
+      "width": 414
+    },
+    {
+      "label": "laura",
+      "requested": 768,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "label": "laura",
+      "requested": 1024,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 1024,
+      "width": 1024
+    },
+    {
+      "label": "laura",
+      "requested": 1440,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "label": "ana",
+      "requested": 320,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "label": "ana",
+      "requested": 360,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 360,
+      "width": 360
+    },
+    {
+      "label": "ana",
+      "requested": 375,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "label": "ana",
+      "requested": 390,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "label": "ana",
+      "requested": 414,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 414,
+      "width": 414
+    },
+    {
+      "label": "ana",
+      "requested": 768,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "label": "ana",
+      "requested": 1024,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 1024,
+      "width": 1024
+    },
+    {
+      "label": "ana",
+      "requested": 1440,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "label": "formulario-revision",
+      "requested": 320,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "label": "formulario-revision",
+      "requested": 360,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 360,
+      "width": 360
+    },
+    {
+      "label": "formulario-revision",
+      "requested": 375,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "label": "formulario-revision",
+      "requested": 390,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "label": "formulario-revision",
+      "requested": 414,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 414,
+      "width": 414
+    },
+    {
+      "label": "formulario-revision",
+      "requested": 768,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "label": "formulario-revision",
+      "requested": 1024,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 1024,
+      "width": 1024
+    },
+    {
+      "label": "formulario-revision",
+      "requested": 1440,
+      "brokenLoadedImages": 0,
+      "fontSize": "16px",
+      "h1Count": 1,
+      "overflow": false,
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  ]
+}
